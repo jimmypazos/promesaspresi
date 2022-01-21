@@ -51,9 +51,12 @@ color: #E5F6F5;
 footer.border-light{
   border-color: #808080 !important;
 }
+footer .logo-footer{
+  height: 45px; width: auto;
+}
 @media (min-width: 992px) {
   .promesas-presidenciales .titulo h1{
     font-size: 3.6em;
     line-height: 2.1em;
   }
- }
+}

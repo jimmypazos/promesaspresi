@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Pixeled;
+  src: url("../fonts/Pixeled.ttf");
+}
+html,body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+.bg-promesas{
+background: linear-gradient(180deg,#504845 10%, rgba(0,0,0, 9) 50%);
+background-repeat: no-repeat;}
+
+.logo-convoca{height: 39px; width: auto;}
+
+.promesas-presidenciales {position: relative;}
+.promesas-presidenciales .col,
+.promesas-presidenciales .titulo{position: relative;}
+.promesas-presidenciales .titulo h1,
+.promesas-presidenciales .titulo h2{
+font-family: Pixeled;
+font-style: normal;
+font-weight: normal;
+font-size: 2em;
+line-height: 44px;
+/* or 143% */
+color: #FFFFFF;
+text-shadow: #504845 -2px 3px 0px, #00A99D -3px 4px 0px;
+color: #fff;
+background: transparent;
+}
+
+.promesas-presidenciales .nombre-presidente{
+  text-shadow: 3px 3px 0px #00A99D, -3px 3px 0px #00A99D, 3px -3px 0px #00A99D, -3px -3px 0px #00A99D;
+color: #E5F6F5;
+}
+.promesas-presidenciales .nombre-presidente img{
+  height: 54px; width: auto;
+}
+.promesas-presidenciales .foto-presidente{
+  margin-top: -20px;
+}
+.promesas-presidenciales .boton-presidente {
+  position: absolute;
+  bottom: 20px;
+}
+.promesas-presidenciales .boton-presidente .boton{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+footer.border-light{
+  border-color: #808080 !important;
+}
+@media (min-width: 992px) {
+  .promesas-presidenciales .titulo h1{
+    font-size: 3.6em;
+    line-height: 2.1em;
+  }
+ }

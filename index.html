@@ -12,33 +12,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="custom-styles.css">
-  <title>Document</title>
+  <title>Promesas Presidenciales - Convoca</title>
 </head>
 
 <body class="d-flex h-100 text-white bg-dark bg-promesas">
-  <main class="container-fluid">
-    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <main class="container-fluid p-0">
+    <div class="container d-flex w-100 p-3 mx-auto flex-column">
       <header class="py-3 mb-2">
         <div class="container-fluid d-grid gap-3 px-0" style="grid-template-columns: 1fr 2fr;">
           <div class="logo">
-            <img src="/images/logo-CONVOCA.png" alt="Convoca" class="logo-convoca">
+            <img src="images/logo-CONVOCA.png" alt="Convoca" class="logo-convoca">
           </div>
           <div class="d-flex align-items-center w-100 justify-content-end ">
             <div class="me-3">Síguenos</div>
-            <div class="flex-shrink-0">
-              <img src="/images/fbBtn.png" alt="Facebook Convoca" class="icono-rrss icono-facebook me-2">
-              <img src="/images/twBtn.png" alt="Twitter Convoca" class="icono-rrss icono-twitter">
+            <div class="flex-shrink-0 topRedesSociales">
+              <a href="https://www.facebook.com/Convoca/" target="_blank" alt="Facebook Convoca"><img
+                  src="images/fbBtn.png" alt="Facebook Convoca" class="icono-rrss icono-facebook me-2"><span
+                  class="magicText">Facebook Convoca</span>
+              </a>
+              <a href="https://twitter.com/ConvocaPe" target="_blank" alt="Twitter Convoca">
+                <img src="images/twBtn.png" alt="Twitter Convoca" class="icono-rrss icono-twitter">
+                <span class="magicText">Twitter Convoca</span>
+              </a>
             </div>
           </div>
         </div>
       </header>
       <div class="promesas-presidenciales">
         <div id="promesasPresidenciales" class="row justify-content-md-center">
-          <div class="col">
+          <div class="col p-0">
             <div class="text-center titulo">
               <h1>Promesas Presidenciales</h1>
             </div>
-            <div class="parrafo my-3 mx-md-5 px-md-5 py-2 text-center">
+            <div class="parrafo my-3 mx-md-5 px-md-5 p-2 text-center">
 
               <p class="mx-md-5">
                 <small><strong>Promesas Presidenciales</strong> es una plataforma interactiva creada por
@@ -65,10 +71,10 @@
         <div id="seccionPresidentes" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-2 my-md-4">
           <div class="col">
             <div class="nombre-presidente text-center">
-              <img src="/images/Castillo@2x.png" alt="Castillo" class="img-fluid">
+              <img src="images/Castillo@2x.png" alt="Castillo" class="img-fluid">
             </div>
             <div class="foto-presidente">
-              <img src="/images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
+              <img src="images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
             </div>
             <div class="boton-presidente text-center w-100">
               <a href="#" class="boton btn btn-outline-light rounded-pill px-5">Verificador de promesas</a>
@@ -76,10 +82,10 @@
           </div>
           <div class="col">
             <div class="nombre-presidente text-center  mt-5">
-              <img src="/images/Castillo@2x.png" alt="Castillo" class="img-fluid">
+              <img src="images/Castillo@2x.png" alt="Castillo" class="img-fluid">
             </div>
             <div class="foto-presidente">
-              <img src="/images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
+              <img src="images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
             </div>
             <div class="boton-presidente text-center w-100">
               <a href="#" class="boton btn btn-outline-light rounded-pill px-5">Verificador de promesas</a>
@@ -88,10 +94,10 @@
           </div>
           <div class="col">
             <div class="nombre-presidente text-center mt-5 pt-md-5">
-              <img src="/images/Castillo@2x.png" alt="Castillo" class="img-fluid">
+              <img src="images/Castillo@2x.png" alt="Castillo" class="img-fluid">
             </div>
             <div class="foto-presidente">
-              <img src="/images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
+              <img src="images/Castillo-1.png" alt="Presidente Castillo" class="img-fluid">
             </div>
             <div class="boton-presidente text-center w-100">
               <a href="#" class="boton btn btn-outline-light rounded-pill px-5">Verificador de promesas</a>
@@ -102,30 +108,47 @@
         </div>
       </div>
     </div>
-
-    <footer class="container-fluid py-5 border-light border-top">
+    <footer class="container-fluid py-4 pb-5 border-light border-top">
       <div class="container">
-        <div class="row justify-content-md-center align-items-center text-center">
-          <div class="col">
-            <div class="d-flex">
-              <div class="me-3">Síguenos</div>
+        <div class="row justify-content-md-center align-items-center text-center gy-3 pb-3">
+          <div class="col-12">
+            <div class="d-flex ms-5">
+              <div class="me-3 ms-3">Síguenos</div>
               <div class="flex-shrink-0">
-                <img src="/images/fbBtn.png" alt="Facebook Convoca" class="icono-rrss icono-facebook me-2">
-                <img src="/images/fbBtn.png" alt="Facebook Convoca" class="icono-rrss icono-facebook me-2">
-                <img src="/images/twBtn.png" alt="Twitter Convoca" class="icono-rrss icono-twitter">
+                <img src="images/fbBtn.png" alt="Facebook Convoca" class="icono-rrss icono-facebook me-2">
+                <img src="images/twBtn.png" alt="Twitter Convoca" class="icono-rrss icono-twitter me-2">
+                <img src="images/ytBtn.png" alt="YouTube Convoca" class="icono-rrss icono-youtube">
               </div>
             </div>
           </div>
-          <div class="col">
-            <img src="/images/logo-CONVOCA.png" alt="Convoca" class="logo-footer">
+          <div class="col-6">
+            <img src="images/logo-CONVOCA.png" alt="Convoca" class="logo-footer img-fluid">
           </div>
-          <div class="col"><img src="/images/logo-blanco-5.png" alt="Latam Chequea" class="logo-footer"></div>
-          <div class="col"><img src="/images/logo-blanco-3.png" alt="Global Investigative Journalism Network"
-              class="logo-footer"></div>
-          <div class="col"><img src="/images/CONVOCA-69.png" alt="Convoca Verifica" class="logo-footer"></div>
+          <div class="col-6">
+            <img src="images/logo-blanco-5.png" alt="Latam Chequea" class="logo-footer img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/logo-blanco-3.png" alt="Global Investigative Journalism Network"
+              class="logo-footer img-fluid">
+          </div>
+          <div class="col-6 px-1">
+            <img src="images/CONVOCA-69.png" alt="Convoca Verifica" class="logo-footer img-fluid">
+            <div class="w-100 small factChecking">UNIDAD DE FACT - CHECKING DE CONVOCA.PE</div>
+          </div>
         </div>
       </div>
     </footer>
+    <div class="container">
+      <div id="btnConoceMetodologia" class="row">
+        <div class="col align-items-center text-center position-relative">
+          <div class="areaVerde position-fixed bottom-0 start-50 translate-middle-x">
+            <a href="#">
+              <h2 class="text-uppercase pt-3">Conoce la Metodología</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

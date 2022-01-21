@@ -1,6 +1,6 @@
 @font-face {
   font-family: Pixeled;
-  src: url("../fonts/Pixeled.ttf");
+  src: url("fonts/Pixeled.ttf");
 }
 html,body{
   font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ background-repeat: no-repeat;}
 font-family: Pixeled;
 font-style: normal;
 font-weight: normal;
-font-size: 2em;
+font-size: 1.80em;
 line-height: 44px;
 /* or 143% */
 color: #FFFFFF;
@@ -28,6 +28,9 @@ text-shadow: #504845 -2px 3px 0px, #00A99D -3px 4px 0px;
 color: #fff;
 background: transparent;
 }
+
+.topRedesSociales a, .topRedesSociales a:hover{ text-decoration: none;}
+.magicText{font-size: 0%; display: none;}
 
 .promesas-presidenciales .nombre-presidente{
   text-shadow: 3px 3px 0px #00A99D, -3px 3px 0px #00A99D, 3px -3px 0px #00A99D, -3px -3px 0px #00A99D;
@@ -53,6 +56,24 @@ footer.border-light{
 }
 footer .logo-footer{
   height: 45px; width: auto;
+}
+footer .factChecking{
+  font-size: 0.48em;
+}
+
+#btnConoceMetodologia .areaVerde{
+  background-color: #00A99D;
+  border-radius: 170px 170px 0 0;
+  min-width: 250px;
+  width: 300px;
+  min-height: 44px;
+}
+#btnConoceMetodologia .areaVerde h2{
+  font-size: 1.07em;
+}
+#btnConoceMetodologia .areaVerde a{
+  text-decoration: none;
+  color: #fff;
 }
 @media (min-width: 992px) {
   .promesas-presidenciales .titulo h1{

@@ -49,6 +49,11 @@ color: #E5F6F5;
 .promesas-presidenciales .boton-presidente .boton{
   margin-bottom: 10px;
   text-transform: uppercase;
+  min-width: 308px;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+.promesas-presidenciales .boton-presidente .boton:hover{
+  background-color:rgba(255,255,255, 0.9);
 }
 
 footer.border-light{
@@ -75,9 +80,38 @@ footer .factChecking{
   text-decoration: none;
   color: #fff;
 }
+@media (min-width: 768px) {
+  .promesas-presidenciales .titulo h1{
+    font-size: 2.8em;
+    line-height: 1.8em;
+  }
+  .promesas-presidenciales .boton-presidente .boton {
+    min-width: 208px;
+    font-size:0.75em;
+    margin-bottom: 6px;
+  }
+  footer .container{
+    max-width: 100%;
+  }
+  footer .logo-footer {
+    height: 40px;}
+  footer .icono-rrss{
+    height: 22px;;
+  }
+}
 @media (min-width: 992px) {
   .promesas-presidenciales .titulo h1{
     font-size: 3.6em;
     line-height: 2.1em;
+  }
+  .promesas-presidenciales .boton-presidente .boton {
+    min-width: 308px;
+    font-size:1em;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  footer .container{
+    max-width: 1320px;
   }
 }

@@ -42,9 +42,31 @@ color: #E5F6F5;
 .promesas-presidenciales .foto-presidente{
   margin-top: -20px;
 }
+
+/*
+  Rollover Image
+*/
+.promesas-presidenciales .foto-presidente {
+    position: relative;
+    max-width: 100%;
+}
+.promesas-presidenciales .foto-presidente img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.promesas-presidenciales .foto-presidente:hover img.image-hover,
+.foto-presidente:hover .boton-presidente .boton:hover img.image-hover{
+  opacity: 1;
+}
 .promesas-presidenciales .boton-presidente {
   position: absolute;
-  bottom: 20px;
+  bottom: 80px;
 }
 .promesas-presidenciales .boton-presidente .boton{
   margin-bottom: 10px;
@@ -55,6 +77,51 @@ color: #E5F6F5;
 .promesas-presidenciales .boton-presidente .boton:hover{
   background-color:rgba(255,255,255, 0.9);
 }
+
+/*conoce metodologia*/
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  overflow: hidden;
+  background-color: #fff; color: #000;
+  transition: all 0.3s;
+}
+.slider.close {
+  top: 100%;
+  height: 0;
+}
+#metodologia .slider h2,
+.modal-body h2{
+  color: #00A99D;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#promesas h3,
+#promesas2 h3,
+#promesas3 h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+#promesas .icono,
+#promesas2 .icono,
+#promesas3 .icono{
+  max-width: 140px;
+  margin: 0 auto;
+  position: absolute;
+  top:-70px;
+  left:30%
+}
+#promesas3 .icono{
+  top:-70px;
+  left:40%
+}
+.rounded-25{
+  border-radius: 25px;;
+}
+
 
 footer.border-light{
   border-color: #808080 !important;
@@ -68,10 +135,12 @@ footer .factChecking{
 
 #btnConoceMetodologia .areaVerde{
   background-color: #00A99D;
-  border-radius: 170px 170px 0 0;
+  border-radius: 160px 160px 0 0;
   min-width: 250px;
   width: 300px;
   min-height: 44px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 #btnConoceMetodologia .areaVerde h2{
   font-size: 1.07em;

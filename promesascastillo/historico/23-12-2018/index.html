@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  lang="" style="">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Convoca | #PromesasVizcarra Lo que cumplió y no cumplió Vizcarra</title>
+  <link rel="icon" href="http://convoca.pe/sites/default/files/favicon.ico">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async="" src="assets/analytics.js"></script>
+  <script src="assets/videojs-ie8.min.js"></script>
+
+  <script src="assets/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  <meta property="og:title" content="Lo que cumplió y no cumplió Vizcarra">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://promesasvizcarra.convoca.pe/">
+  <meta property="og:image" content="http://promesasvizcarra.convoca.pe/assets/img/share_principa.jpg">
+  <meta property="og:description" content="El Verificador de Promesas es una plataforma interactiva creada por Convoca.pe para medir el grado de cumplimiento de lo que prometen los políticos y se estrena con un amplio análisis y corroboración de 29 promesas lanzadas por el Gobierno de Kuczynski.">
+  <meta property="og:site_name" content="El Verificador de las Promesas">
+
+  <meta name="twitter:title" content="Convoca | #PromesasVizcarra - Lo que cumplió y no cumplió Vizcarra">
+  <meta name="twitter:description" content="El Verificador de Promesas es una plataforma interactiva creada por Convoca.pe para medir el grado de cumplimiento de lo que prometen los políticos y se estrena con un amplio análisis y corroboración de 29 promesas lanzadas por el Gobierno de Kuczynski.">
+  <meta name="twitter:image" content="http://promesasvizcarra.convoca.pe/assets/img/share_principa.jpg">
+
+
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <!-- If you'd like to support IE8 -->
+  <script src="assets/jquery-1.11.2.min.js"></script>
+
+  <script src="assets/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84949844-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <style>
+    .grid-item { 
+      width: calc(33.33% - 10px);
+      font-family: Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      text-align: justify;   
+      border: solid 1px; 
+      background-color: #F7F7F7;
+      overflow: hidden;
+    } 
+    .grid-item .textoEje{
+      font-family: Alternate Gothic;
+      line-height: 29px;
+      padding-top: 18px;
+      display: inline;
+      display: table-cell;
+      text-align: left;
+      font-weight: bolder;
+      font-size: 29px;
+    }
+    .grid-item .imagenviz{
+      height: auto;
+      width: 80%;
+    }
+    .grid-item .textoResultado{        
+      float: right;
+      margin-top: 7%;
+      width: 12%;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .grid-item .textoRespuesta{
+      position: absolute;
+      top: 100%;
+      color: white;
+      transition: all .2s ease-in;      
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      padding: 15px;
+    }
+    .porque-ho{
+      background: #b7150a;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 400;
+      margin-left: 35px;
+      font-size: 12px;
+    }
+    
+    .grid-item-content{
+      padding: 13px;
+      padding-top: 0px;
+      font-weight: bold;
+    }
+    .grid-fuente-info{
+      font-size: 14px;
+      /*font-style: italic;*/
+    }
+    .redes-compartir{
+      text-align: center;
+    }
+    .redes-compartir > p > a{
+      font-size: 35px;
+      margin-right: 10px;
+    }
+    @media (max-width: 575.98px) { 
+      .grid-item{
+        width: 100%;
+        margin-left: 0px;
+      }
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) { 
+      .grid-item{
+        width: calc(50% - 10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <div class="contenido">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <br>
+      <h1>El verificador de las promesas</h1>
+      <a href="http://promesaspresidenciales.convoca.pe/">Portada</a>
+      <!--a href="/quees">Qué es</a-->
+      <a href="http://promesasvizcarra.convoca.pe/metodologia.html">Metodología</a>
+      <a href="http://promesasvizcarra.convoca.pe/">Vizcarra</a>
+      <a href="http://promesasppk.convoca.pe/">PPK</a>
+    </div>
+
+    <div id="barra">
+      <div class="nav-redes">
+        <span onclick="openNav()" style="cursor:pointer;">
+          <img src="assets/menu.svg" alt="menú" class="img-menu">
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/facebook-blanco.png" alt=""></a>
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/twitter-blanco.png" alt=""></a>
+        </span>
+        <span class="suscribete">
+          <a href="http://investigalavajato.convoca.pe/suscribete/"
+            target="_blank">Suscríbete</a>
+        </span>
+      </div>
+
+      <!--div class="nombre sr-only" id="nombre-home">
+          <a href="/">#PromesasVizcarra</a>
+        </div-->
+
+
+      <span class="suscribete">
+        <!--a href="/primerbalance">Primer año Prode Vizcarra</a-->
+        <a href="http://promesasvizcarra.convoca.pe/#">Promesas Vizcarra</a>
+      </span>
+
+
+
+      <div class="logo">
+        <img src="assets/Convoca Logo Blanco-01.png" alt="">
+      </div>
+    </div>
+
+    <div class="main " id="main">
+
+      <div class="titulo-home">
+        <div class="span1">El verificador</div>
+        <div class="span2">de promesas</div>
+      </div>
+
+      <div class="lista_promesas">
+
+        <div class="explicacion">
+
+          <h2>#PromesasVizcarra</h2>
+          <div class="explicacion-texto">
+            <h2>Lo que cumplió y no cumplió</h2>
+            <p>Durante su primer mensaje de 28 de Julio ante el Congreso, el presidente Martín Vizcarra hizo 22 promesas de gobierno que debían cumplirse antes de finalizar el 2018. De esos ofrecimientos, cinco no se cumplieron, seis aún están en proceso y uno fue realizado fuera del plazo planteado. Solo nueve de los compromisos del mandatario fueron cumplidos. Ver análisis <a href="http://convoca.pe/agenda-propia/gobierno-de-vizcarra-aun-no-cumple-con-mas-del-50-de-promesas-para-el-2018"
+                target="_blank"><b>aquí</b></a></p>
+
+            <div >
+              <img src="assets/img/fotosaras.jpg" style="width:100%;height:auto;" alt="">
+            </div>
+
+          </div>
+          <div class="explicacion-rueda">
+            <img src="assets/vizcarra.gif" alt="">
+
+          </div>
+
+        </div>
+
+        
+
+        <div class="promesa__nota">
+          <div class="etiqueta-sector">
+            Análisis
+          </div>
+          <div class="img-promesa">
+            <img src="assets/img/portada-vizcarra.png">
+          </div>
+          <div class="promesa-bloque">
+            <div class="promesa_texto clear">
+              <p class="nombre_promesa">GOBIERNO DE VIZCARRA AÚN NO CUMPLE CON MÁS DEL 50% DE PROMESAS PARA EL 2018</p>
+              <p class="bajada-home">
+                De 21 promesas presidenciales verificadas por Convoca.pe, cinco no serán cumplidas en este año y otras seis todavía siguen en proceso y podrían realizarse en los siguientes días. Los nueve compromisos cumplidos están relacionados con las reformas en el sistema de justicia y la convocatoria a referéndum.
+              </p>
+              <a href="http://convoca.pe/agenda-propia/gobierno-de-vizcarra-aun-no-cumple-con-mas-del-50-de-promesas-para-el-2018">
+                <p class="ver-mas">Ver más</p>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="promesas"></div>
+        <div class="bloque-buscador">
+          <h1>Promesas</h1>
+          <div class="botones-buscar">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Categoria <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a class="filtrar-categoria" id="-1">TODOS</a></li>
+                <li><a class="filtrar-categoria" id="0">PROMESA CUMPLIDA</a></li>
+                <li><a class="filtrar-categoria" id="1">PROMESA EN PROCESO</a></li>
+                <li><a class="filtrar-categoria" id="2">PROMESA INCUMPLIDA</a></li>
+                <li><a class="filtrar-categoria" id="3">PROMESA CUMPLIDA FUERA DEL PLAZO</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">TEMA <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a class="filtrar-sector" id="-1">TODOS</a></li>
+                <li><a class="filtrar-sector" id="0">LUCHA CONTRA LA CORRUPCIÓN</a></li>
+                <li><a class="filtrar-sector" id="1">FORTALECIMIENTO INSTITUCIONAL PARA LA GOBERNABILIDAD</a></li>
+                <li><a class="filtrar-sector" id="2">CRECIEMIENTO ECONÓMICO, EQUITATIVO, COMPETITIVO Y SOSTENIBLE</a></li>
+                <li><a class="filtrar-sector" id="3">DESARROLLO SOCIAL Y BIENESTAR DE LA POBLACIÓN</a></li>
+              </ul>
+            </div>
+            <br>
+            
+            <script>
+              var my_json;
+              var categoria=-1;
+              var eje=-1;
+              $(document).ready(function(){
+                
+                $.getJSON("assets/data.json", function(json) {                  
+                  my_json=json;
+                  fnCrearPromesas();
+                });
+              });
+              
+              $('body').on('click','.filtrar-categoria',function(){ 
+                categoria=$(this).attr('id');
+                fnCrearPromesas();
+              })
+              $('body').on('click','.filtrar-sector',function(){ 
+                eje=$(this).attr('id');
+                fnCrearPromesas();
+
+              })
+              
+              var fnCrearPromesas=function(){
+                $(".grid").remove();
+                $(".promesas").append('<div class="grid" style="width: 95%"></div>');
+                
+                $.each( my_json, function( key, value ) {
+                    
+                    if(categoria!=-1) {
+                      if (value.categoria!=categoria) {
+                        return true;
+                      }else{
+                        console.log("agregado");
+                      }
+                    }
+                    if(eje!=-1) {
+                      if (value.eje!=eje) {
+                        return true;
+                      }else{
+                        console.log("agregado");
+                      }
+                    }
+                    //////////////
+                    //////////////
+                    /////////////
+                    var ejeTexto="Lucha contra la corrupción";
+                    if(value.eje=="1")  ejeTexto="Fortalecimiento institucional para la gobernabilidad";
+                    if(value.eje=="2")  ejeTexto="Crecimiento económico, equitativo, competitivo y sostenible";
+                    if(value.eje=="3")  ejeTexto="Desarrollo Social y Bienestar de la Población";
+                    var ejeCalificacion="assets/img/0.png";
+                    var color="#26b9d1";
+                    if(value.categoria=="1")  ejeCalificacion="assets/img/1.png",color="#caca32";
+                    if(value.categoria=="2")  ejeCalificacion="assets/img/2.png",color="#070707";
+                    if(value.categoria=="3")  ejeCalificacion="assets/img/3.png",color="#e12b36";
+                    var htmlTmp='<div class="grid-item grid-categoria-'+value.categoria+'"><div class="grid-item-content"><span class="textoEje" style="color:'+color+';">'+ejeTexto+'</span><br>';
+                    htmlTmp+="<div style='display: table; margin-bottom: 10px;'><div style='width:50%;float: left;text-align: right;'><img class='imagenviz' src='"+ejeCalificacion+"' /></div><div style='width:50%;font-size: 20px;text-align: left;padding-left: 5%;' class='textoResultado'>"+value.nomcatego+"</div><span class='porque-ho'>¿Por qué?</span></div>";            
+
+                  
+                    htmlTmp+='<div style="font-style: italic;line-height: 20px;text-align: left;">"'+value.promesa+'"</div></div>';            
+                    htmlTmp+="<div class='textoRespuesta' style='background:"+color+";'>"+value.textoestado+"<br><br><div class='redes-compartir'><p><a href='https://www.facebook.com/sharer/sharer.php?u=http://promesasvizcarra.convoca.pe/compartir/share_"+value.codigo+".html' target='_blank'><i class='fab fa-facebook-square'></i></a>";
+                    htmlTmp+='<a href="javascript:var dir=&#39;http://promesasvizcarra.convoca.pe/compartir/share_'+value.codigo+'.html&#39;;var tit=&#39;'+value.promesa+' http://promesasvizcarra.convoca.pe&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0" target="_blank"><i class="fab fa-twitter-square"></i></a></p></div><div class="grid-fuente">Fuente:</div><div class="grid-fuente-info"><a href='+value.link+' target="_blank">'+value.fuente+'</a></div></div></div>';
+                    
+                    $('.promesas .grid').append(htmlTmp);
+                    
+                  });
+                  
+                  setTimeout(() => {
+                    $('.grid').masonry({
+                    itemSelector: '.grid-item'
+                  }); 
+                  $('.porque-ho').click(function(){ 
+                    $(".textoRespuesta").css('top','100%');
+                    $(this).parent().parent().siblings().css('top','0%');
+                  });
+                  $(".textoRespuesta").click(function(){
+                    $(".textoRespuesta").css('top','100%');
+                  })
+                  }, 500);
+              }
+            </script>
+
+          </div>
+        </div>
+        <div class="promesas">
+           
+        </div>
+        <div id="no-verificables"></div>
+        <div class="bloque-buscador" style="display:none;">
+          <h1>informes</h1>
+        </div>
+        <div class="bloque-no-verificable">
+          <div class="promesas-no-verificables">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+          Edición: Óscar Libón<br>
+
+          Coordinadora del proyecto: Milagros Salazar<br>
+          
+          Reporteo y base de datos: Alexander Lavilla, Jackeline Cárdenas, Cristina Alvarado, Gerardo Muñante, Belén Balbín y Henry Bohorquez.<br>
+      Si deseas compartir información o contactarte con nosotros, escríbenos a info@convoca.pe <br>
+      ©Convoca 2018
+      </div>
+    </footer>
+  </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script>
+    $.getJSON( "assets/leer_feed.php", function( data ){
+    
+    var notas = data.channel.item;
+    console.log(notas.length);
+    if (notas.length == undefined) {
+      console.log('solo hay uno');
+      var titulo1 = notas.title;
+      var img1 = $(notas.description).find("img").attr("src");
+      var links1 = notas.link;
+
+      $('.promesas-no-verificables').append('<div class="promesa__item">'+
+              '<div class="img-promesa">'+
+                '<img src="'+img1+'">'+
+              '</div>'+
+              '<div class="promesa-bloque">'+
+                '<div class="promesa_texto">'+
+                  '<div><a href="'+links1+'">'+
+                      '<p class="nombre_promesa">'+titulo1+'</p>'+
+                    '</a>'+
+                  '</div>'+
+                  '<div class="redes-promesa">'+
+                    '<a href="javascript:var dir=&#39;'+links1+'&#39;;var tit=&#39;'+titulo1+'&#39;;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/facebook-logo-button.png" alt=""></a>'+
+                    '<a href="javascript:var dir=&#39;'+links1+'&#39;;var tit=&#39;'+titulo1+'&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/twitter-logo-button.png" alt=""></a>'+
+                  '</div></div></div></div>');
+
+    }
+    if (notas.length >= 0) {
+      console.log('mas de uno');
+      for (let index = 0; index < notas.length; index++) {
+        var titulo = notas[index].title;
+        var img = $(notas[index].description).find("img").attr("src");
+        var links = notas[index].link;
+
+        $('.promesas-no-verificables').append('<div class="promesa__item">'+
+              '<div class="img-promesa">'+
+                '<img src="'+img+'">'+
+              '</div>'+
+              '<div class="promesa-bloque">'+
+                '<div class="promesa_texto">'+
+                  '<div><a href="'+links+'">'+
+                      '<p class="nombre_promesa">'+titulo+'</p>'+
+                    '</a>'+
+                  '</div>'+
+                  '<div class="redes-promesa">'+
+                    '<a href="javascript:var dir=&#39;'+links+'&#39;;var tit=&#39;'+titulo+'&#39;;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/facebook-logo-button.png" alt=""></a>'+
+                    '<a href="javascript:var dir=&#39;'+links+'&#39;;var tit=&#39;'+titulo+'&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/twitter-logo-button.png" alt=""></a>'+
+                  '</div></div></div></div>');
+        
+    }
+    }
+});
+
+
+  
+  </script>
+</body>
+</html>

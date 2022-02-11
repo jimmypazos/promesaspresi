@@ -1,0 +1,1457 @@
+
+@font-face {
+    font-family: Alternate Gothic;
+    src: url(Alternategothicno2b.otf);
+}
+@font-face {
+    font-family: Pixeled;
+    src: url(Pixeled.ttf);
+}
+@font-face {
+    font-family: Century Gothic;
+    src: url(century-gothic.ttf);
+}
+* {
+    font-family: Helvetica;
+}
+h1, h2, h3 {
+    font-family: Futura bold;
+}
+body {
+    background-color: #F7F7F7;
+}
+/*Navbar++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+#mySidenav {
+    z-index: 100;
+}
+#mySidenav h1 {
+    font-family: Alternate Gothic;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 0 0 20px;
+}
+#fondo-promesa {
+    transition: margin-left .5s;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    background: #fff;
+}
+.fondo-top {
+    background: url(../img/ministros_small.jpeg);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 80px;}
+    .sidenav a {font-size: 18px;}
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(/polina.jpg) no-repeat;
+    background-size: cover; 
+}
+video#bgvid {
+    transition: 1s opacity;
+}
+.stopfade { transition: 3s ; }
+hr{
+    border-top: 1px solid #000 !important;
+}
+.fondo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+#ppk {
+    background: url(/test/img/ppk.jpg); 
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.color-prueba {
+    color: #FFC400;
+}
+.contenido {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.nav-redes {
+    padding-left: 20px;
+}
+.img-menu {
+    vertical-align: middle;
+    width: 60px;
+    padding-right: 20px;
+    border-right: 1.8px solid #fff;
+    margin-right: 0px;
+}
+.separador {
+    color: #fff;
+    padding: 10px;
+}
+.nombre {
+    width: 250px;
+}
+.logo {
+}
+#barra {
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    background: #000;
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.img-categoria {
+    margin-top: 1em;
+}
+.img-promesa img{
+    max-width: 100%;
+    margin-bottom: 10px; 
+    width: 100%;
+}
+.nombre_promesa {
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    font-family: Alternate Gothic;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    color: #000;
+}
+.lista_promesas {
+    padding: 20px 0px 30px;
+}
+.promesas {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.promesas-no-verificables {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.promesa {
+    text-align: center;
+    color: #000;
+    font-family: Lato;
+    width: 85%;
+    margin: 8em auto 2em auto;
+    background: #fff;
+    padding: 80px 50px 20px;
+}
+
+.promesa-hr {
+    width: 50%;
+}
+
+.tooltip {
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.promesa__item {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    padding: 0px 0 20px;
+    margin: 0px;
+}
+.promesa__nota {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 0px 0 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.promesa__nota div {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.promesa__item span, .promesa__nota span {
+	width: 19px;
+    text-align: center;
+}
+.promesa_texto {
+	width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.promesa_logo {
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+}
+.promesa_logo div {
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 10px;
+    font-family: Alternate Gothic;
+}
+.promesa-bloque {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promesa h2 {
+	    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.mas {
+    width: 100%;
+    text-align: center;
+}
+
+.mas img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+h2 span img {
+    width: 40px;
+    margin: 10px;
+}
+
+.sub-promesa {
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    font-size: 20px;
+    margin: 30px 0 20px;
+}
+
+.promesa p {
+        font-size: 16px;
+    text-align: left;
+}
+
+.video-promesa {
+    text-align: center;
+    margin: 30px auto 40px;
+}
+
+.audio-borde {
+    width: 300px;
+    background: #000;
+    margin: 60px auto 0px;
+}
+
+.derecha {
+    position: fixed;
+    right: 0;
+    top: 400px;
+    color: #000;
+    background: #000;
+    width: 40px;
+    z-index: 30;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha span {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.izquierda {
+    position: fixed;
+    left: 0;
+    top: 400px;
+    color: #000;
+    background: #000;
+    width: 40px;
+    z-index: 30;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda span {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.sectores {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin-top: 80px;
+}
+.sector {
+    height: 80px;
+    width: 20px;
+}
+
+.nombre a {
+    font-family: Alternate Gothic;
+    font-size: 22px;
+    color: #fff;
+}
+
+.mas-promesa {
+    display: block !important;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.mas-promesa a {
+    width: 24px;
+    border: 1px dashed #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+.explicacion {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.explicacion-texto {
+    width: calc( 100% - 500px );
+    background-color: #F9F9F9;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.explicacion-texto p {
+    padding: 10px 20px 20px;
+    text-align: left;
+    font-family: Alternate Gothic;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.explicacion-rueda {
+    width: 480px;
+    /* padding: 0px 20px;*/
+}
+
+.explicacion-rueda img {
+    max-width: 100%;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.titulo-home{
+    font-family: Pixeled;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.titulo-home .span1 {
+    color: #fff !important;
+    background: #504845 !important;
+    font-family: Pixeled;
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 7px 5px;
+    width: 100%;
+    text-align: right;
+}
+.titulo-home .span2 {
+    color: #00A99D !important;
+    background: #fff !important;
+    font-family: Pixeled;
+    text-transform: lowercase;
+    font-size: 27px;
+    padding: 7px 5px;
+    width: 100%;
+}
+
+.etiqueta-sector {
+    color: #fff;
+    background: #000;
+    width: auto;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.img-verificador {
+    width: 250px;
+    margin: 40px auto;
+    text-align: center;
+}
+.img-verificador img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.img-promesa-contenido {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+.img-promesa-contenido img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.logo img {
+    width: 140px;
+    padding-top: 6px;
+}
+
+.caras {
+    padding: 0px 40px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cara {
+   display: flex;
+    align-items: center;
+    padding: 3px 0;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-start;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.no-verificable {
+    position: absolute;
+    right: 0px;
+    top: 510px;
+}
+.cara img {
+    padding-right: 0px;
+    width: 80px;
+}
+
+.cara div {
+    font-family: Alternate Gothic;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.color1 {
+    color: #00A99D;
+}
+.color2 {
+    color: #504845;
+}
+.color3 {
+    color: #000;
+}
+
+.st0{fill:#00A99D;}
+.st1{fill:#504845;}
+.st2{font-family:'Alternate Gothic';}
+.st3{font-size:24.6982px;}
+.icon-change {
+    position: absolute;
+    top: 340px;
+    left: 840px;
+}
+.icon-change-gif {
+    position: absolute;
+    top: 365px;
+    left: 850px;
+}
+.bloque-buscador {
+    padding: 20px 0px 30px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.botones-buscar {
+    display: flex;
+    justify-content: center;
+        padding: 10px 0 0;
+}
+.botones-buscar button {
+    width: 140px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #504845;
+    color: #504845;
+    font-family: Alternate Gothic;
+    margin: 5px;
+}
+.botones-buscar button:hover, .botones-buscar button:focus, .botones-buscar button:active {
+    color: #504845 !important;
+}
+.bloque-buscador h1 {
+    text-transform: uppercase;
+    font-family: Pixeled;
+    font-size: 33px;
+    color: #000;
+    padding-left: 5px;
+}
+.bloque1_promesa {
+    margin-top: 80px;
+    padding: 0px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.estado-promesa {
+    width: 70%;
+    text-align: center;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.estado-promesa p {
+    font-size: 38px;
+    font-family: Alternate Gothic;
+    margin-top: 10px;
+}
+
+.titulo {
+    width: 680px;
+}
+
+.titulo h1{
+    font-family: Alternate Gothic;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.frase-promesa {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #fff;
+}
+.frase-promesa em{
+    font-family: Helvetica;
+    font-size: 19px;
+}
+
+.frase-promesa p {
+    padding: 35px 40px 0px 40px;
+    text-align: center;
+}
+
+.comilla-derecha, .comilla-izquierda {
+    width: 28px;
+}
+.comilla-derecha {
+    float: right;
+}
+.comilla-izquierda {
+    float: left;
+}
+
+.autor-promesa {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+
+.autor-promesa p {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.motivo-promesa {
+    margin: 40px;
+    background: #f8f8f8;
+}
+.motivo-promesa h2 {
+    font-family: Alternate Gothic;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.motivo-promesa p {
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: justify;
+    padding: 0px 40px 20px;
+}
+
+.motivo-promesa p a {
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+.imagen-derecha {
+    float: right;
+    width: 500px;
+}
+.imagen-derecha img {
+    width: 100%;
+    max-width: 100%;
+}
+.imagen-derecha p {
+    text-align: center;
+    font-family: Helvetica;
+    background: #fff;
+    font-size: 13px;
+}
+.detalle-promesa p{
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: left;
+}
+.detalle-promesa p a {
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+.explicacion h2 {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Alternate Gothic;
+    margin-top: 0px;
+}
+.explicacion-texto h2{
+    text-align: left;
+    padding: 10px 20px 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+.metodologia {
+    width: 70%;
+    margin: 0 auto 20px;
+    padding: 20px 0;
+}
+.metodologia p {
+    font-family: Helvetica;
+}
+.metodologia h1 {
+    font-family: Alternate Gothic;
+    text-align: center;
+    font-size: 56px;
+    margin: 50px 0 60px;
+}
+.dropdown-menu>li>a {
+    font-size: 20px;
+    font-family: Alternate Gothic;
+    text-transform: uppercase;
+}
+.promesa_logo img {
+        max-width: 100%;
+    width: 90px;
+}
+.bloque2_promesa {
+    background: #fff;
+    padding: 10px;
+}
+.bloque2_promesa img.cocaleros {
+        max-width: 100%;
+}
+.redes-promesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-promesa img {
+    width: 25px;
+    margin: 2px;
+}
+
+.adicional {
+    background: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.adicional img {
+    max-width: 100%;
+}
+.veredicto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.veredicto p {
+    font-size: 20px;
+    line-height: 14px;
+    padding-top: 14px;
+    font-family: Alternate Gothic;
+}
+
+.veredicto img {
+    width: 180px;
+    max-width: 100%;
+}
+
+.fuente {
+    font-family: Helvetica;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.detalle-promesa h2 {
+    font-family: Alternate Gothic;
+    text-align: center !important;
+}
+
+.caras-veredicto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 580px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.cara-veredicto {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+    width: 30%;
+    justify-content: flex-start;
+    text-align: left;
+    padding-bottom: 25px;
+    width: 280px;
+}
+.cara-veredicto img{
+    width: 80px;
+}
+.cara-veredicto div {
+    padding: 0px 10px;
+}
+.cara-veredicto input {
+    margin-right: 10px;
+}
+.cara-veredicto p {
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.cara-veredicto .votos {
+    font-size: 11px;
+    font-family: Helvetica;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.form-inline {
+    padding-bottom: 10px;
+}
+.campos-form {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left; 
+    margin-bottom: 40px; 
+}
+.btn {
+    background: #000;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.comentarios {
+    width: 600px;
+    margin: 40px auto;
+}
+.comentario {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px dashed #666;
+    margin-bottom: 10px;
+}
+.comentario-img {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+.comentario-img img {
+    max-width: 100%;
+    width: 80px;
+}
+.comentario-img p {
+    font-size: 11px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Alternate Gothic;
+}
+.comentario-comentario {
+    width: 75%;
+    font-family: Helvetica;
+    font-size: 13px;
+    padding: 2px 10px;
+}
+.comentario-veredicto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nombre-comentario {
+    padding: 2px 10px;
+        font-family: Helvetica;
+        font-weight: bold;
+}
+.comentarios h2 {
+    font-family: Alternate Gothic;
+}
+.autor-promesa {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.autor-promesa .audio {
+    width: 20%;
+}
+.autor-promesa img {
+    max-width: 100%;
+    width: 40px;
+}
+.autor-promesa .autor {
+    width: 80%;
+    padding-left: 2px;
+}
+
+.grafico {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+.detalle-promesa .grafico{
+    width: 80%;
+}
+.grafico h3 {
+    font-size: 16px;
+    background: #e5e5e5;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.grafico h3 span{
+    font-size: 22px;
+    color: #464646;
+    font-family: Lato;
+}
+
+label {
+    font-family: Helvetica !important;
+}
+
+.dato {
+    float: right;
+    width: 300px;
+    margin: 10px;
+}
+
+.bloque_twitter {
+    width: 240px;
+    padding: 20px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 30px;
+    background: #000;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.bloque_twitter span{
+    font-family: Helvetica;
+    padding-left: 10px;
+}
+
+.espacio {
+    margin-bottom: 20px;
+}
+
+.cabecera-promesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,.45);
+    padding: 40px 10px 0px;
+     flex-direction: column;
+}
+.fuente-foto {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: right;
+    width: 100%;
+    margin-top: 20px;
+}
+.franja-noverificable {
+    background: #fff;
+    margin: 20px 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#promesas, #no-verificables{
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+.descripcion-promesa{
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.descripcion-promesa .cara{
+    width: 100% !important;
+}
+
+.suscribete{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.primeranio{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.promesa-descripcion{
+    width: 100%;
+    padding: 0px !important;
+}
+.descripcion-cara{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.clear {
+  clear: both;
+}
+.grafico img{
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    .franja-noverificable{
+        padding: 20px 20px;
+    }
+    .imagen-franja img{
+        max-width: 100%;
+    }
+    .texto-franja p{
+        text-align: left;
+    }
+    .promesa_texto {
+        width: 95%;
+        padding-right: 10px;
+    }
+    .promesa__nota .nombre_promesa{
+        font-size: 20px;
+    }
+    .bloque-buscador h1{
+        font-size: 25px;
+    }
+    .estado-promesa{
+        width: 90%;
+    }
+    .grafico{
+        width: 90%;
+    }
+    .detalle-promesa .grafico{
+        width: 100%;
+    }
+    .titulo h1{
+        padding: 0 80px;
+    }
+    .promesa__nota .nombre_promesa {
+        font-size: 20px;
+        text-align: center;
+    }
+    .etiqueta-sector{
+        font-size: 9px;
+    }
+}
+@media(max-width: 680px){
+    .titulo h1{
+        padding: 0 10px;
+    }
+    .cabecera-nota h1{
+        padding-top: 0px !important;
+    }
+    .nombre_promesa {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
+@media(max-width: 500px){
+    .promesa__item {
+        width: 100%;
+    }
+    .nombre_promesa {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .promesa-descripcion{
+        width: 100%;
+        padding: 0px !important;
+    }
+    #promesasvideo{
+        height: 218px;
+        width: 100%;
+    }
+    .descripcion-cara{
+        width: 100%;
+    }
+    .titulo-home{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .titulo-home .span1, .titulo-home .span2{
+        text-align: center;
+    }
+    .suscribete{
+        display: none !important;
+    }
+    .explicacion-texto{
+        width: 100% !important;
+    }
+}
+@media(max-width: 400px){
+    .promesa__item {
+        width: 100%;
+    }
+    
+    .explicacion h2{
+            text-align: center;
+            padding: 0px 10px;
+    }
+    .promesa__nota .nombre_promesa {
+        font-size: 21px !important;
+        line-height: 19px;
+        text-align: center;
+    }
+    .nombre_promesa {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .etiqueta-sector{
+        display: none;
+    }
+    .promesa_logo div{
+        font-size: 10px;
+        line-height: 10px;
+        padding-top: 5px;
+    }
+    .titulo {
+        width: 90%;
+    }
+    .frase-promesa{
+        width: 100%;
+    }
+    .autor-promesa {
+        width: 100%;
+    }
+    .estado-promesa, .grafico {
+        width: 90%;
+    }
+    .caras-veredicto{
+        width: 280px;
+        flex-direction: column;
+    }
+    .campos-form, .comentarios{
+        width: 100%;
+    }
+    #nombre-home {
+        display: none;
+    }
+    .caras {
+        padding: 0px 0px;
+    }
+    .titulo h1{
+        font-size: 30px;
+    }
+    .metodologia{
+        width: 90%;
+    }
+    .cabecera-nota {
+        height: 300px !important;
+    }
+    p.bajada {
+        width: 100% !important;
+        font-size: 18px !important;
+    }
+    .frase-promesa p {
+        padding: 30px 20px 0px 20px !important;
+    }
+    .comilla-derecha, .comilla-izquierda {
+        width: 20px;
+    }
+    .autor-promesa{
+        margin-top: 50px !important;
+    }
+    #mySidenav h1{
+        margin-top: 0px;
+    }
+    
+}
+
+@media(max-width: 321px){
+    .titulo-home .span1, .titulo-home .span2{
+        font-size: 21px;
+        text-align: center;
+    }
+    .texto-franja {
+        padding-right: 10px;
+    }
+    .nombre_promesa {
+        font-size: 16px !important;
+        line-height: 15px;
+        text-align: left;
+    }
+    .logo img {
+        width: 90px;
+        padding-top: 4px;
+    }
+    .posicion{
+        background-position: -154px 299px !important;
+    }
+    .separador{
+        padding: 5px !important;
+    }
+    .nav-redes {
+        padding-left: 0px !important;
+    }
+    .cara div {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .cara img {
+        padding-right: 0px;
+        width: 70px;
+        max-width: 100%;
+    }
+    .img-menu {
+        width: 50px;
+        padding-right: 10px;
+    }
+    .separador img{
+        width: 20px;
+    }
+    .explicacion-rueda img{
+        width: 300px !important;
+    }
+    .explicacion-rueda{
+        width: 300px !important;
+    }
+    .img-menu{
+        width: 40px;
+    }
+    .caras{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cara{
+        display: inline-block;
+        float: left;
+    }
+    #barra{
+        display: inline-block;
+    }
+    .nav-redes{
+        float: left;
+        margin-top: 10px;
+    }
+    .logo{
+        float: right;
+    }
+    .franja-noverificable{
+        display: inline-block;
+    }
+    .texto-franja{
+        float: left;
+    }
+    .imagen-franja, .promesa_logo{
+        float: right;
+    }
+    .promesa__nota .promesa-bloque{
+        display: flex;
+    }
+     .promesa-bloque{
+        display: inline-block;
+    }
+    .promesa__nota .promesa_texto{
+        float: none !important;
+    }
+   
+    .promesa_texto {width: 75%;padding-right: 10px;float: left;padding-left: 10px;}
+    .autor-promesa{
+        display: inline-block;
+    }
+    .autor-promesa .audio{
+        float: left;
+        padding-left: 10px;
+    }
+    .autor-promesa .autor{
+        float: right;
+    }
+}
+@media(max-width: 300px){
+    
+}
+ p.bajada {
+    width: 90%;
+    margin: 10px auto 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    padding: 20px;
+}
+
+footer div {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: center;
+}
+
+#play-audio, #pause-audio {
+    cursor: pointer;
+}
+
+.bajada-home {
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 10px;
+}
+.cabecera-nota {
+    height: 600px;
+}
+
+.cabecera-nota h1 {
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+
+.texto-franja {
+    width: 70%;
+    text-align: left;
+}
+.texto-franja p {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: Alternate Gothic;
+    font-size: 18px;
+}
+.imagen-franja {
+    width: 20%;
+    text-align: center;
+}
+.imagen-franja img {
+    width: 80px;
+}
+.promesa-imagen-franja {
+    font-family: Alternate Gothic;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.autor{
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px !important;
+    flex-wrap: wrap;
+}
+.centrar div{
+    margin: 5px;
+}
+.sumilla{
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+.sumilla h3{
+    font-size: 28px;
+    background: #f9f9f9;
+    color: #333;
+    padding: 25px 20px;
+    /* font-weight: bold; */
+    font-family: Helvetica;
+}
+
+.ver-mas{
+    font-weight: bold;
+    padding: 4px 6px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    margin-top: 10px;
+}
+.fecha-publicacion{
+    font-family: Helvetica !important;
+    font-size: 13px !important;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}

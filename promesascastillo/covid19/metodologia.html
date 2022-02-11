@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  lang="" style="">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Convoca | #PromesasVizcarra Lo que cumplió y no cumplió Vizcarra</title>
+  <link rel="icon" href="http://convoca.pe/sites/default/files/favicon.ico">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async="" src="assets/analytics.js"></script>
+  <script src="assets/videojs-ie8.min.js"></script>
+
+  <script src="assets/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  <meta property="og:title" content="Lo que cumplió y no cumplió Vizcarra">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://promesasvizcarra.convoca.pe/">
+  <meta property="og:image" content="http://promesasvizcarra.convoca.pe/assets/img/share_principa.jpg">
+  <meta property="og:description" content="El Verificador de Promesas es una plataforma interactiva creada por Convoca.pe para medir el grado de cumplimiento de lo que prometen los políticos y se estrena con un amplio análisis y corroboración de 29 promesas lanzadas por el Gobierno de Kuczynski.">
+  <meta property="og:site_name" content="El Verificador de las Promesas">
+
+  <meta name="twitter:title" content="Convoca | #PromesasVizcarra - Lo que cumplió y no cumplió Vizcarra">
+  <meta name="twitter:description" content="El Verificador de Promesas es una plataforma interactiva creada por Convoca.pe para medir el grado de cumplimiento de lo que prometen los políticos y se estrena con un amplio análisis y corroboración de 29 promesas lanzadas por el Gobierno de Kuczynski.">
+  <meta name="twitter:image" content="http://promesasvizcarra.convoca.pe/assets/img/share_principa.jpg">
+
+
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <!-- If you'd like to support IE8 -->
+  <script src="assets/jquery-1.11.2.min.js"></script>
+
+  <script src="assets/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84949844-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <style>
+    .grid-item { 
+      width: calc(33.33% - 10px);
+      font-family: Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      text-align: justify;   
+      border: solid 1px; 
+      background-color: #F7F7F7;
+      overflow: hidden;
+    } 
+    .grid-item .textoEje{
+      font-family: Alternate Gothic;
+      line-height: 29px;
+      padding-top: 18px;
+      display: inline;
+      display: table-cell;
+      text-align: left;
+      font-weight: bolder;
+      font-size: 29px;
+    }
+    .grid-item .imagenviz{
+      height: auto;
+      width: 80%;
+    }
+    .grid-item .textoResultado{        
+      float: right;
+      margin-top: 7%;
+      width: 12%;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .grid-item .textoRespuesta{
+      position: absolute;
+      top: 100%;
+      color: white;
+      transition: all .2s ease-in;      
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      padding: 15px;
+    }
+    .porque-ho{
+      background: #b7150a;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 400;
+      margin-left: 35px;
+      font-size: 12px;
+    }
+    
+    .grid-item-content{
+      padding: 13px;
+      padding-top: 0px;
+      font-weight: bold;
+    }
+    .grid-fuente-info{
+      font-size: 14px;
+      /*font-style: italic;*/
+    }
+    .redes-compartir{
+      text-align: center;
+    }
+    .redes-compartir > p > a{
+      font-size: 35px;
+      margin-right: 10px;
+    }
+    @media (max-width: 575.98px) { 
+      .grid-item{
+        width: 100%;
+        margin-left: 0px;
+      }
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) { 
+      .grid-item{
+        width: calc(50% - 10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <div class="contenido">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <br>
+      <h1>El verificador de las promesas</h1>
+      <a href="http://promesaspresidenciales.convoca.pe/">Portada</a>
+      <!--a href="/quees">Qué es</a-->
+      <a href="http://promesasvizcarra.convoca.pe/metodologia.html">Metodología</a>
+      <a href="http://promesasvizcarra.convoca.pe/">Vizcarra</a>
+      <a href="http://promesasppk.convoca.pe/">PPK</a>
+    </div>
+
+    <div id="barra">
+      <div class="nav-redes">
+        <span onclick="openNav()" style="cursor:pointer;">
+          <img src="assets/menu.svg" alt="menú" class="img-menu">
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/facebook-blanco.png" alt=""></a>
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/twitter-blanco.png" alt=""></a>
+        </span>
+        <span class="suscribete">
+          <a href="http://investigalavajato.convoca.pe/suscribete/"
+            target="_blank">Suscríbete</a>
+        </span>
+      </div>
+
+      <!--div class="nombre sr-only" id="nombre-home">
+          <a href="/">#PromesasVizcarra</a>
+        </div-->
+
+
+      <span class="suscribete">
+        <!--a href="/primerbalance">Primer año Prode Vizcarra</a-->
+        <a href="http://promesasvizcarra.convoca.pe/#">Promesas Vizcarra</a>
+      </span>
+
+
+
+      <div class="logo">
+        <img src="assets/Convoca Logo Blanco-01.png" alt="">
+      </div>
+    </div>
+
+    <div class="main " id="main">
+
+            <div class="metodologia">
+
+                    <h1>¿Cómo se califican las promesas?</h1>
+            
+                    <p>Para dar cuenta de nuestros hallazgos establecimos categorías para determinar el grado de cumplimiento, que detallamos a continuación:</p>
+            
+            
+                    
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Una promesa es considera <b>CUMPLIDA</b> si a partir de la información disponible, pudo establecerse con datos y hechos que la medida se concretó completamente dentro del periodo de tiempo.</p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/0.png" alt=""><div class="color3">Promesa Cumplida</div></div> </div>
+                        
+                    </div>
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Para calificarse como una promesa <b>CUMPLIDA PARCIALMENTE</b>, debe verificarse si al menos una parte de la medida se produjo dentro del plazo establecido.</p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/4.png" alt=""><div class="color3">Promesa Cumplida Parcialmente</div></div> </div>
+                        
+                    </div>
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Una promesa es <b>INCUMPLIDA</b>, si al finalizar el plazo fijado, no se implementó la medida. </p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/2.png" alt=""><div class="color3">Promesa Incumplida</div></div> </div>
+                        
+                    </div>
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Y es <b>CUMPLIDA FUERA DEL PLAZO</b> cuando no se ejecutó en el tiempo establecido.</p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/3.png" alt=""><div class="color3">Promesa Cumplida fuera del plazo</div></div> </div>
+                        
+                    </div>
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Una promesa será considerada <b>ENGAÑOSA</b> cuando el cumplimiento de la medida se empezó a ejecutar en una gestión anterior o la autoridad encargada de cumplirla la modifica para presentarla como una promesa culminada. </p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/5.png" alt=""><div class="color3">Promesa Engañosa</div></div> </div>
+                        
+                    </div>
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            <p>Una promesa es <b>CUMPLIDA PERO …</b> cuando la autoridad no tuvo en cuenta la verdadera dimensión del problema que poder enfrentarlo.</p>
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/6.png" alt=""><div class="color3">Promesa Cumplida Pero ...</div></div> </div>
+                        
+                    </div>
+            
+                    <div class="descripcion-promesa">
+                        <div class="promesa-descripcion">
+                            Por último, la promesa <b>EN PROCESO</b> es aquella que no puede ser corroborada hasta el momento debido a que sus resultados recién podrán ser medidos o conocidos luego del 31 de diciembre de 2018.
+                        </div>
+                        <div class="descripcion-cara"><div class="cara"><img src="assets/img/1.png" alt=""><div class="color3">Promesa en proceso</div></div> </div>
+                        
+                    </div>
+                    <br><br><br><br><br>
+                    
+                </div>
+
+    </div>
+    <footer>
+      <div>
+            Edición: Óscar Libón<br>
+
+            Coordinadora del proyecto: Milagros Salazar<br>
+            
+            Reporteo y base de datos: Alexander Lavilla, Jackeline Cárdenas, Cristina Alvarado, Gerardo Muñante, Belén Balbín y Henry Bohorquez.<br>
+        Si deseas compartir información o contactarte con nosotros, escríbenos a info@convoca.pe <br>
+        ©Convoca 2018
+      </div>
+    </footer>
+  </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+</body>
+</html>

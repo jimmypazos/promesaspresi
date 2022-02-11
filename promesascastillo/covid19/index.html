@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  lang="" style="">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Convoca | #PromesasVizcarraCOVID-19COVID-19 Las promesas que cumplió y no cumplió Martín Vizcarra para enfrentar la pandemia.</title>
+  <link rel="icon" href="http://convoca.pe/sites/default/files/favicon.ico">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async="" src="assets/analytics.js"></script>
+  <script src="assets/videojs-ie8.min.js"></script>
+
+  <script src="assets/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  <meta property="og:title" content=" Las promesas que cumplió y no cumplió Martín Vizcarra para enfrentar la pandemia">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://promesasvizcarra.convoca.pe/covid19/">
+  <meta property="og:image" content="http://promesasvizcarra.convoca.pe/covid19/assets/img/share_principa.jpg?v=14">
+  <meta property="og:description" content="La unidad de fact-checking de Convoca.pe analizó 34 promesas del Presidente relacionadas al COVID-19">
+  <meta property="og:site_name" content="El Verificador de las Promesas">
+
+  <meta name="twitter:title" content="Convoca | #PromesasVizcarraCOVID-19 -  Las promesas que cumplió y no cumplió Martín Vizcarra para enfrentar la pandemia">
+  <meta name="twitter:description" content="La unidad de fact-checking de Convoca.pe analizó 34 promesas del Presidente relacionadas al COVID-19">
+  <meta name="twitter:image" content="http://promesasvizcarra.convoca.pe/covid19/assets/img/share_principa.jpg?v=14">
+  <meta name="twitter:card" content="summary_large_image" />
+
+
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="assets/main.css?v=14">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <!-- If you'd like to support IE8 -->
+  <script src="assets/jquery-1.11.2.min.js"></script>
+
+  <script src="assets/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84949844-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <style>
+    .grid-item { 
+      width: calc(33.33% - 10px);
+      font-family: Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      text-align: justify;   
+      border: solid 1px; 
+      background-color: #F7F7F7;
+      overflow: hidden;
+      min-height: 450px;
+    } 
+    .grid-item .textoEje{
+      font-family: Alternate Gothic;
+      line-height: 29px;
+      padding-top: 18px;
+      display: inline;
+      display: table-cell;
+      text-align: left;
+      font-weight: bolder;
+      font-size: 29px;
+    }
+    .grid-item .imagenviz{
+      height: auto;
+      width: 80%;
+    }
+    .grid-item .textoResultado{        
+      float: right;
+      margin-top: 7%;
+      width: 12%;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .grid-item .textoRespuesta{
+      position: absolute;
+      top: 100%;
+      color: white;
+      transition: all .2s ease-in;      
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      padding: 15px;
+    }
+    .porque-ho{
+      background: #b7150a;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 400;
+      margin-left: 35px;
+      font-size: 12px;
+    }
+    
+    .grid-item-content{
+      padding: 13px;
+      padding-top: 0px;
+      font-weight: bold;
+    }
+    .grid-fuente-info{
+      font-size: 14px;
+      /*font-style: italic;*/
+    }
+    .redes-compartir{
+      text-align: center;
+    }
+    .redes-compartir > p > a{
+      font-size: 35px;
+      margin-right: 10px;
+    }
+    @media (max-width: 575.98px) { 
+      .grid-item{
+        width: 100%;
+        margin-left: 0px;
+      }
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) { 
+      .grid-item{
+        width: calc(50% - 10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <div class="contenido">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <br>
+      <h1>El verificador de las promesas</h1>
+      <a href="http://promesaspresidenciales.convoca.pe/">Portada</a>
+      <!--a href="/quees">Qué es</a-->
+      <a href="http://promesasvizcarra.convoca.pe/covid19/metodologia.html">Metodología</a>
+      <a href="http://promesasvizcarra.convoca.pe/covid19">COVID-19</a>
+      <a href="http://promesasvizcarra.convoca.pe/">Vizcarra</a>
+      <a href="http://promesasppk.convoca.pe/">PPK</a>
+    </div>
+
+    <div id="barra">
+      <div class="nav-redes">
+        <span onclick="openNav()" style="cursor:pointer;">
+          <img src="assets/menu.svg" alt="menú" class="img-menu">
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/facebook-blanco.png" alt=""></a>
+        </span>
+        <span class="separador">
+          <a href="javascript:var dir=&#39;https://promesasvizcarra.convoca.pe/&#39;;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img
+              src="assets/twitter-blanco.png" alt=""></a>
+        </span>
+        <span class="suscribete">
+          <a href="http://investigalavajato.convoca.pe/suscribete/"
+            target="_blank">Suscríbete</a>
+        </span>
+      </div>
+
+      <!--div class="nombre sr-only" id="nombre-home">
+          <a href="/">#PromesasVizcarraCOVID-19</a>
+        </div-->
+
+
+      <span class="suscribete">
+        <!--a href="/primerbalance">Primer año Prode Vizcarra</a-->
+        <a href="http://promesasvizcarra.convoca.pe/covid19/#">Promesas Vizcarra</a>
+      </span>
+
+
+
+      <div class="logo">
+        <a href="http://convoca.pe"><img src="assets/Convoca Logo Blanco-01.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="main " id="main">
+
+      <div class="titulo-home">
+        <div class="span1">El verificador</div>
+        <div class="span2">de promesas</div>
+      </div>
+
+      <div class="lista_promesas">
+
+        <div class="explicacion">
+
+          <h2>#PromesasVizcarra<span style="color: #db2126; font-weight: 700;">COVID-19</span></h2>
+          <div class="explicacion-texto">
+            <h2>Lo que cumplió y no cumplió durante la pandemia</h2>
+            <p>
+              El presidente Martín Vizcarra asumió el mayor desafío de su gestión con la crisis desatada por el COVID-19 en el mundo. #ConvocaVerifica, la unidad de fact-checking de <a href="https://convoca.pe">Convoca.pe</a>, identificó 34 promesas realizadas por el Jefe de Estado en conferencias de prensa y actividades oficiales entre el 11 de marzo y 9 de julio de 2020 y determinó que el 47% de estas promesas aún están en proceso de cumplirse o se han concretado en forma parcial.  Este análisis se publica ad portas del último mensaje de 28 de julio que ofrecerá Vizcarra ante el Congreso de la República y que marca el inicio de su último año en el poder.
+              <br><br>
+              Por Convoca / Domingo, 26 de julio de 2020. Hora: 9 a.m.
+
+
+            </p>
+
+            <div >
+              <img src="assets/img/fotosaras.jpg" style="width:100%;height:auto;" alt="">
+            </div>
+
+          </div>
+          <div class="explicacion-rueda">
+            <img src="assets/img/vizcarra4.gif" alt=""> 
+
+          </div>
+
+        </div>
+
+        
+
+        <div class="promesa__nota">
+          <div class="etiqueta-sector">
+            Análisis
+          </div>
+          <div class="img-promesa">
+            <img src="assets/img/fotoprincipal.jpg">
+          </div>
+          <div class="promesa-bloque">
+            <div class="promesa_texto clear">
+              <p class="nombre_promesa">COVID-19: EL 47% DE LAS PROMESAS DE VIZCARRA ESTÁ A MEDIO CAMINO DE CUMPLIRSE</p>
+              <p class="bajada-home">
+                Convoca Verifica, la unidad de fact-checking de Convoca.pe, analizó el discurso del presidente Martín Vizcarra en decenas de conferencias de prensa y actos oficiales entre el 11 de marzo y el 9 de julio. Como resultado, se identificaron 34 promesas realizadas en relación a la pandemia, no sólo en el sector salud, sino también en educación, la reactivación económica y el otorgamiento de bonos y subsidios. Casi la mitad de estos compromisos aún están en proceso de cumplirse o se lograron cumplir en forma parcial. Esta nueva edición del especial 'Promesas Vizcarra', se publica como antesala al último mensaje de 28 de julio que ofrecerá el Jefe de Estado ante el Congreso de la República y que da inicio a su último año de gestión.
+              </p>
+              <a href="https://convoca.pe/agenda-propia/covid-19-47-de-las-promesas-del-gobierno-de-vizcarra-estan-medio-camino">
+                <p class="ver-mas">Ver más</p>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="promesas"></div>
+        <div class="bloque-buscador">
+          <h1>Promesas</h1>
+          <iframe id="promesasvideo" width="80%" height="580px" src="https://www.youtube.com/embed/435ecnFfN70?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="botones-buscar">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Categoria <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a class="filtrar-categoria" id="-1">TODOS</a></li>
+                <li><a class="filtrar-categoria" id="0">PROMESA CUMPLIDA</a></li>
+                <li><a class="filtrar-categoria" id="1">PROMESA EN PROCESO</a></li>
+                <li><a class="filtrar-categoria" id="2">Promesa cumplida parcialmente</a></li>
+                <li><a class="filtrar-categoria" id="3">Promesa cumplida fuera de plazo</a></li>
+                <li><a class="filtrar-categoria" id="4">Promesa cumplida pero</a></li>
+                <li><a class="filtrar-categoria" id="5">Promesa incumplida</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">TEMA <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a class="filtrar-sector" id="-1">TODOS</a></li>
+                <li><a class="filtrar-sector" id="0">Economía y empleo</a></li>
+                <li><a class="filtrar-sector" id="1">Bonos, alimentos y servicios básicos</a></li>
+                <li><a class="filtrar-sector" id="2">Ciudadanos varados</a></li>
+                <li><a class="filtrar-sector" id="3">Emergencia sanitaria</a></li>
+                <li><a class="filtrar-sector" id="4">Educación y programas sociales</a></li>
+              </ul>
+            </div>
+            <br>
+            
+            <script>
+              var my_json;
+              var categoria=-1;
+              var eje=-1;
+              $(document).ready(function(){
+                
+                $.getJSON("assets/data.json?v=14", function(json) {                  
+                  my_json=json;
+                  fnCrearPromesas();
+                });
+              });
+              
+              $('body').on('click','.filtrar-categoria',function(){ 
+                categoria=$(this).attr('id');
+                fnCrearPromesas();
+              })
+              $('body').on('click','.filtrar-sector',function(){ 
+                eje=$(this).attr('id');
+                fnCrearPromesas();
+
+              })
+              
+              var fnCrearPromesas=function(){
+                $(".grid").remove();
+                $(".promesas").append('<div class="grid" style="width: 95%"></div>');
+                
+                $.each( my_json, function( key, value ) {
+                    
+                    if(categoria!=-1) {
+                      if (value.categoria!=categoria) {
+                        return true;
+                      }else{
+                        console.log("agregado");
+                      }
+                    }
+                    if(eje!=-1) {
+                      if (value.eje!=eje) {
+                        return true;
+                      }else{
+                        console.log("agregado");
+                      }
+                    }
+                    //////////////
+                    //////////////
+                    /////////////
+                    var ejeTexto="Lucha contra la corrupción";
+                    if(value.eje=="0")  ejeTexto="Economía y empleo";
+                    if(value.eje=="1")  ejeTexto="Bonos, alimentos y servicios básicos";
+                    if(value.eje=="2")  ejeTexto="Ciudadanos varados";
+                    if(value.eje=="3")  ejeTexto="Emergencia sanitaria";
+                    if(value.eje=="4")  ejeTexto="Educación y programas sociales";
+                    /*
+                    <li><a class="filtrar-categoria" id="0">PROMESA CUMPLIDA</a></li>
+                    <li><a class="filtrar-categoria" id="1">PROMESA EN PROCESO</a></li>
+                    <li><a class="filtrar-categoria" id="2">Promesa cumplida parcialmente</a></li>
+                    <li><a class="filtrar-categoria" id="3">Promesa cumplida fuera de plazo</a></li>
+                    <li><a class="filtrar-categoria" id="4">Promesa cumplida pero</a></li>
+                    <li><a class="filtrar-categoria" id="5">Promesa incumplida</a></li>
+                    */
+                    var ejeCalificacion="assets/img/0.png";
+                    var color="#58b4b1";
+                    if(value.categoria=="1")  ejeCalificacion="assets/img/1.png",color="#bfbd00";
+                    if(value.categoria=="2")  ejeCalificacion="assets/img/2.png",color="#525252";
+                    if(value.categoria=="3")  ejeCalificacion="assets/img/3.png",color="#d90208";
+                    if(value.categoria=="4")  ejeCalificacion="assets/img/4.png",color="#3a2828";
+                    if(value.categoria=="5")  ejeCalificacion="assets/img/5.png",color="#010101";
+
+
+                    var htmlTmp='<div class="grid-item grid-categoria-'+value.categoria+'"><div class="grid-item-content"><span class="textoEje" style="color:'+color+';">'+ejeTexto+'</span><br>';
+                    htmlTmp+="<div style='display: table; margin-bottom: 10px;'><div style='width:50%;float: left;text-align: right;'><img class='imagenviz' src='"+ejeCalificacion+"?v=14' /></div><div style='width:50%;font-size: 20px;text-align: left;padding-left: 5%;' class='textoResultado'>"+value.nomcatego+"</div><span class='porque-ho'>¿Por qué?</span></div>";            
+
+                  
+                    htmlTmp+='<div style="font-style: italic;line-height: 20px;text-align: left;">"'+value.promesa+'"</div></div>';            
+                    htmlTmp+="<div class='textoRespuesta' style='background:"+color+";'>"+value.textoestado+"<br><br><div class='redes-compartir'><p><a href='https://www.facebook.com/sharer/sharer.php?u=http://promesasvizcarra.convoca.pe/covid19/compartir/share_"+value.codigo+".html' target='_blank'><i class='fab fa-facebook-square'></i></a>";
+                    htmlTmp+='<a href="javascript:var dir=&#39;http://promesasvizcarra.convoca.pe/covid19/compartir/share_'+value.codigo+'.html&#39;;var tit=&#39;'+value.promesa+' http://promesasvizcarra.convoca.pe&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0" target="_blank"><i class="fab fa-twitter-square"></i></a></p></div><div class="grid-fuente">Fuente:</div><div class="grid-fuente-info"><a href='+value.link+' target="_blank">'+value.fuente+'</a></div></div></div>';
+                    
+                    $('.promesas .grid').append(htmlTmp);
+                    
+                  });
+                  
+                  setTimeout(() => {
+                    $('.grid').masonry({
+                    itemSelector: '.grid-item'
+                  }); 
+                  $('.porque-ho').click(function(){ 
+                    $(".textoRespuesta").css('top','100%');
+                    $(this).parent().parent().siblings().css('top','0%');
+                  });
+                  $(".textoRespuesta").click(function(){
+                    $(".textoRespuesta").css('top','100%');
+                  })
+                  }, 500);
+                  setTimeout(() => {
+                    $('.grid').masonry({
+                    itemSelector: '.grid-item'
+                  }); 
+                  $('.porque-ho').click(function(){ 
+                    $(".textoRespuesta").css('top','100%');
+                    $(this).parent().parent().siblings().css('top','0%');
+                  });
+                  $(".textoRespuesta").click(function(){
+                    $(".textoRespuesta").css('top','100%');
+                  })
+                  }, 1500);
+              }
+            </script>
+
+          </div>
+        </div>
+        <div class="promesas">
+           
+        </div>
+        <div id="no-verificables"></div>
+         
+        <div class="bloque-no-verificable">
+          <div class="promesas-no-verificables">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <b>Coordinación y edición general del proyecto: </b>Milagros Salazar Herrera <br>
+          <b>Reportería y análisis de datos:</b> Fiorella Montaño, Shirley Cayetano, Sonia Tello y Luis Enrique Pérez. <br>
+            <b>Editores:</b> Elena Miranda, Ghiovani Hinojosa y Antonio Manco. <br>
+              <b>Desarrollo:</b> Elvis Rivera. <br>
+        Fotoilustraciones: Iván Ciro Palomino. Audiencia y redes sociales: Antonio Manco.
+        <br><br>
+        
+      Si deseas compartir información o contactarte con nosotros, escríbenos a info@convoca.pe <br>
+      ©Convoca 2020
+      </div>
+    </footer>
+  </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script>
+    $.getJSON( "assets/datanotas.json?v=14", function( data ){
+    console.log(data);
+    var notas = data;
+    console.log(notas.length);
+    if (notas.length == undefined) {
+      console.log('solo hay uno');
+      var titulo1 = notas.titulo;
+      var img1 = notas.img;
+      //var img1 = $(notas.description).find("img").attr("src");
+      var links1 = notas.link;
+
+      $('.promesas-no-verificables').append('<div class="promesa__item">'+
+              '<div class="img-promesa">'+
+                '<img src="'+img1+'">'+
+              '</div>'+
+              '<div class="promesa-bloque">'+
+                '<div class="promesa_texto">'+
+                  '<div><a href="'+links1+'">'+
+                      '<p class="nombre_promesa">'+titulo1+'</p>'+
+                    '</a>'+
+                  '</div>'+
+                  '<div class="redes-promesa">'+
+                    '<a href="javascript:var dir=&#39;'+links1+'&#39;;var tit=&#39;'+titulo1+'&#39;;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/facebook-logo-button.png" alt=""></a>'+
+                    '<a href="javascript:var dir=&#39;'+links1+'&#39;;var tit=&#39;'+titulo1+'&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/twitter-logo-button.png" alt=""></a>'+
+                  '</div></div></div></div>');
+
+    }
+    if (notas.length >= 0) {
+      console.log('mas de uno');
+      for (let index = 0; index < notas.length; index++) {
+        var titulo = notas[index].titulo;
+        var img1 = notas[index].img;
+        var links = notas[index].link;
+
+        $('.promesas-no-verificables').append('<div class="promesa__item">'+
+              '<div class="img-promesa">'+
+                '<img src="'+img1+'">'+
+              '</div>'+
+              '<div class="promesa-bloque">'+
+                '<div class="promesa_texto">'+
+                  '<div><a href="'+links+'">'+
+                      '<p class="nombre_promesa">'+titulo+'</p>'+
+                    '</a>'+
+                  '</div>'+
+                  '<div class="redes-promesa">'+
+                    '<a href="javascript:var dir=&#39;'+links+'&#39;;var tit=&#39;'+titulo+'&#39;;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open(&#39;http://www.facebook.com/share.php?u=&#39;+dir2+&#39;&amp;t=&#39;+tit2+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/facebook-logo-button.png" alt=""></a>'+
+                    '<a href="javascript:var dir=&#39;'+links+'&#39;;var tit=&#39;'+titulo+'&#39;;var tit2=encodeURIComponent(tit);window.open(&#39;http://twitter.com/?status=&#39;+tit2+&#39;%20&#39;+dir+&#39;&#39;,&#39;ventana&#39;,&#39;width=600,height=400,left=50,top=50,toolbar=yes&#39;);void 0"><img src="assets/twitter-logo-button.png" alt=""></a>'+
+                  '</div></div></div></div>');
+        
+    }
+    }
+});
+
+
+  
+  </script>
+</body>
+</html>

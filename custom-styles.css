@@ -105,22 +105,25 @@ color: #E5F6F5;
   font-size: 20px;
   font-weight: 700;
 }
+
+.rounded-25{
+  border-radius: 25px;;
+}
+
 #promesas .icono,
 #promesas2 .icono,
 #promesas3 .icono{
   max-width: 140px;
   margin: 0 auto;
-  position: absolute;
-  top:-70px;
-  left:30%
 }
-#promesas3 .icono{
-  top:-70px;
-  left:40%
+@media (max-width: 575.98px) { 
+  #promesas .icono,
+  #promesas2 .icono,
+  #promesas3 .icono{
+    left:25%
+  }
 }
-.rounded-25{
-  border-radius: 25px;;
-}
+
 
 
 footer.border-light{
@@ -159,6 +162,20 @@ footer .factChecking{
     font-size:0.75em;
     margin-bottom: 6px;
   }
+
+  #promesas .icono,
+  #promesas2 .icono,
+  #promesas3 .icono{
+    max-width: 140px;
+    margin: 0 auto;
+    position: absolute;
+    top:-70px;
+    left:30%
+  }
+  #promesas3 .icono{
+    left:40%
+  }
+
   footer .container{
     max-width: 100%;
   }
@@ -167,6 +184,7 @@ footer .factChecking{
   footer .icono-rrss{
     height: 22px;;
   }
+  .border-bottom{border:0 solid !important}
 }
 @media (min-width: 992px) {
   .promesas-presidenciales .titulo h1{
@@ -178,9 +196,42 @@ footer .factChecking{
     font-size:1em;
     margin-bottom: 10px;
   }
+  
+}
+@media (min-width: 1025px){
+  .promesas-presidenciales .nombre-presidente{
+    transform: rotate(-90deg);
+    float: left;
+    position: absolute;
+    top: 136px;
+    left: -50px;
+  }
+  .promesas-presidenciales .nombre-presidente.vizcarra{
+    left: -60px;
+    top: 190px;
+  }
+  .promesas-presidenciales .nombre-presidente.ppk{
+    left: -70px;
+    top: 190px;
+  }
+  .promesas-presidenciales .nombre-presidente.ppk img{
+    height: 80px;
+  }
+  .promesas-presidenciales .foto-presidente{
+    float: right;
+    margin-left: 60px;
+  }
+  .promesas-presidenciales .foto-presidente.ppk.mt-lg-5{
+    margin-top:2.5em;
+  }
 }
 @media (min-width: 1400px) {
   footer .container{
     max-width: 1320px;
+  }
+}
+@media (max-width:415px) {
+  .card {
+    border: 0 solid rgba(0,0,0,.125);
   }
 }

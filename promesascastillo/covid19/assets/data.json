@@ -1,0 +1,342 @@
+[
+  {
+    "codigo": "1",
+    "promesa": "Prórroga de declaración jurada de impuesto a la renta para micro, pequeñas y medianas empresas, que van a ser afectadas en su economía y su liquidez.",
+    "eje": "0",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "Sunat dispuso aplazar las fechas de vencimiento de la Declaración Anual del Impuesto a la Renta (IR) de 2019: de febrero a agosto de 2020.",
+    "link": "",
+    "fuente": "Sunat"
+  },
+  {
+    "codigo": "2",
+    "promesa": "Establecer un arancel 0 para la importación de medicamentos e insumos médicos.",
+    "eje": "0",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El Ejecutivo dispuso la reducción a 0% de la tasa de pago de aranceles advalorem CIF a la importación de medicamentos, insumos e implementos médicos, catalogados como bienes necesarios para la prevención y atención del COVID-19. En un inicio, la norma solo indicaba que la reducción del arancel era por 90 días, pero se amplió hasta el fin del estado de emergencia, es decir, hasta el 7 de septiembre de 2020.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/566383/DS051_2020EF.pdf",
+    "fuente": "Decreto Supremo N° 051-2020-EF"
+  },
+  {
+    "codigo": "3",
+    "promesa": "Hemos aprobado un decreto donde hablamos del programa 'Reactiva Perú'. Queremos minimizar los daños que produce el aislamiento en la economía (...). Lo más importante en esta circunstancia es cómo garantizamos la continuidad de la cadena de pagos de la economía nacional.",
+    "eje": "0",
+    "categoria": "4",
+    "nomcatego": "Promesa cumplida pero",
+    "textoestado": "El gobierno creó el programa Reactiva Perú para que la banca privada otorgue préstamos con garantía estatal a las empresas que hayan sido afectadas por el aislamiento social. En la primera etapa de estos préstamos, el gobierno aprobó otorgar la garantía por S/.30 mil millones. Sin embargo, los datos públicos sobre las empresas beneficiadas en las primera etapa revelaron que compañías vinculadas a casos de corrupción accedieron a los préstamos, como las supervisoras CESEL S.A. y HOB Consultores S.A. que son investigadas por el caso Lava Jato. Además, se encontró que empresas que realizaron despidos masivos durante el aislamiento social también obtuvieron los créditos.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/720488/DL_1455.pdf",
+    "fuente": "Decreto Legislativo 1455"
+  },
+  {
+    "codigo": "4",
+    "promesa": "Así como hemos hecho un FAE (Fondo de Apoyo Empresarial) para las pequeñas y microempresas, también hemos publicado, hoy día, el FAE Turismo, dedicado específicamente para las empresas del sector turismo. S/.500 millones de soles para beneficiar a esas empresas.",
+    "eje": "0",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "Según el Decreto de Urgencia 076-2020, el Ejecutivo busca otorgar créditos para capital de trabajo a las empresas del sector turismo dedicadas al hospedaje, transporte interprovincial, transporte turístico, agencias de viajes y turismo, entre otras. Para el financiamiento el gobierno ha destinado S/.500 millones a favor del Ministerio del Comercio Exterior y Turismo (Mincetur). La entidad administradora de los recursos será COFIDE y las entidades financieras serán las encargadas de otorgar los créditos.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/720488/DL_1455.pdf",
+    "fuente": "Decreto de Urgencia 076-2020"
+  },
+  {
+    "codigo": "5",
+    "promesa": "Queremos apoyar el esfuerzo de las empresas por preservar el empleo. Se ha aprobado hoy en el Consejo de Ministros un artículo que define un subsidio del Estado a la planilla de las empresas de un 35% para los trabajadores que tienen un sueldo de hasta 1500 soles.",
+    "eje": "0",
+    "categoria": "4",
+    "nomcatego": "Promesa cumplida pero",
+    "textoestado": "Si bien el programa fue creado con el Decreto de Urgencia N° 033-2020 del 27 de marzo de 2020, el gobierno no ha mostrado documentación que pruebe el cumplimiento de esta promesa. Convoca.pe pidió información sobre este programa a las entidades encargadas de registrar a las compañías beneficiadas, el Ministerio de Trabajo y SUNAT, así como a las encargadas de administrar los recursos, el Ministerio de Economía y el Banco de la Nación. Sin embargo, las cuatro entidades señalaron no contar con información sobre la totalidad de las compañías que solicitaron acceder al subsidio, las empresas que accedieron al programa y el número de trabajadores que fueron beneficiados por el subsidio.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/572106/DU033_2020.pdf",
+    "fuente": "MTPE, MEF, Sunat, Banco de la Nación"
+  },
+  {
+    "codigo": "6",
+    "promesa": "Estamos coordinando con las empresas de servicio público para que puedan hacer un desface en el pago de los servicios del mes de marzo. Eso también se está viendo con las empresas de suministro de energía eléctrica y de agua potable para que puedan hacer un desfase y permitan retrasar esos pagos.",
+    "eje": "1",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "En el caso del servicio de agua y saneamiento, el Decreto de Urgencia 036-2020 permitió el fraccionamiento de pago por los servicios del mes de marzo hasta en 24 meses. Según el Ministerio de Vivienda en Lima y Callao, que dependen de Sedapal, son 540 mil 527 usuarios en situación de vulnerabilidad quienes fueron beneficiados automáticamente. El ministerio indicó que no tiene cifras consolidadas de las EPS (Empresas Prestadoras de Servicios de Saneamiento) en el resto de regiones.\n En el caso del servicio de electricidad, el Decreto de Urgencia 035-2020 establece que las empresas eléctricas podrán fraccionar los pagos de las familias en situación de vulnerabilidad que consumen mensualmente hasta 100 kWh en un máximo de 24 cuotas sin interés.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/581842/DU036_2020.pdf",
+    "fuente": "Ministerio de Vivienda, Construcción y Saneamiento"
+  },
+  {
+    "codigo": "7",
+    "promesa": "Hemos aprobado un decreto de urgencia que va en apoyo de la población más vulnerable. Hemos aprobado una transferencia para todos los municipios del país (...) que, en su totalidad, está por el orden de los S/.200 millones, para que los municipios puedan adquirir y distribuir artículos de primera necesidad de la canasta básica familiar a las personas realmente vulnerables que necesitan este apoyo.",
+    "eje": "1",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El viernes 27 de marzo de 2020, el Poder Ejecutivo aprobó la transferencia de S/.213 millones 650 mil a los gobiernos locales para la adquisición de canastas básicas familiares destinadas a pobladores en situación de vulnerabilidad por causa de la emergencia sanitaria declarada por el COVID-19. Vía Decreto de Urgencia 033-2020 también se aprobó que los gobiernos locales puedan modificar sus presupuestos para ampliar el número de beneficiados por las canastas.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/572106/DU033_2020.pdf",
+    "fuente": "Decreto de Urgencia 033-2020"
+  },
+  {
+    "codigo": "8",
+    "promesa": "Por eso, también, hoy día hemos aprobado en un decreto de urgencia considerar alrededor de 800 mil familias, que corresponden al grupo de trabajadores independientes, para que también sean beneficiarios de estas trasferencias.",
+    "eje": "1",
+    "categoria": "4",
+    "nomcatego": "Promesa cumplida pero",
+    "textoestado": "Según los datos abiertos del Ministerio de Trabajo, actualizados hasta el 24 de junio, entidad que se encargó de la entrega dal Bono Independiente indica que ha entregado bonos a 773 mil 291 trabajadores indendientes, de los cuales 679 mil 584 cobraron el bono de S/.760, mientras 93 mil 707 no realizaron el cobro.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/572106/DU033_2020.pdf",
+    "fuente": "Ministerio de Trabajo"
+  },
+  {
+    "codigo": "9",
+    "promesa": "Cómo no vamos a repatriar a los peruanos que están acá cerquita en Arica y que tienen interés de llegar a Tacna, a Moquegua, a Puno o a Lima. Vamos a ver el mecanismo, el protocolo para traerlos, pero con un protocolo que garantice la seguridad para evitar cualquier tipo de contagio.",
+    "eje": "2",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "La Cancillería indicó que en mayo se logró repatriar a 2 mil peruanos desde Chile. El Ministerio de Relaciones Exteriores indicó que entre el 22 y 23 de julio de 2020 se repatriaron mil 188 peruanos en situación de vulnerabilidad que han sido empadronados por los consulados: 552 de Santiago, 292 de Iquique, 185 de Antofagasta y el norte de Chile, 159 de Arica. Los varados deberán cumplir la cuarentena en hoteles designados por el Mincetur y los gobiernos de las regiones de origen de los retornados.",
+    "link": "https://www.cooperativa.cl/noticias/pais/region-de-tarapaca/megaoperativo-humanitario-repatriara-a-mas-de-mil-peruanos-en-chile/2020-07-21/164311.html",
+    "fuente": "Ministerio de Relaciones Exteriores"
+  },
+  {
+    "codigo": "10",
+    "promesa": "Los expertos dicen que para tener una evaluación a detalle (...) se requieren 12 mil (pruebas). Esperemos, la próxima semana, llegar hasta los 12 mil.",
+    "eje": "3",
+    "categoria": "3",
+    "nomcatego": "Promesa cumplida fuera de plazo",
+    "textoestado": "El 11 de abril, el presidente Martín Vizcarra anunció que ese mes se llegaría a la meta de 12 mil pruebas diarias para detectar el COVID-19. Sin embargo, el Jefe de Estado informó recién el 15 de mayo que se alcanzó esa cifra. Recientemente, el Minsa informó que se hacen cerca de 20 mil pruebas diarias.",
+    "link": "https://andina.pe/agencia/noticia-presidente-vizcarra-peru-llego-a-las-605000-pruebas-covid19-797449.aspx",
+    "fuente": "Martín Vizcarra"
+  },
+  {
+    "codigo": "11",
+    "promesa": "La decisión que hemos tomado, no solamente dentro del sector salud, sino como gobierno, es que este hospital (Ate) sea especializado en coronavirus, sea el hospital COVID-19.",
+    "eje": "3",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El hospital de Ate se ha convertido en el nosocomio especializado para tratar casos de COVID - 19 en Lima. Sin embargo, familiares de los pacientes de este hospital han denunciado que no reciben información clara y oportuna sobre el estado de salud y el tratamiento médico de los pacientes. Convoca.pe ha solicitado información sobre el número de casos atentidos y el índice de letalidad, pero aún no hemos recibido respuesta.",
+    "link": "https://elperuano.pe/noticia-hospital-ate-empieza-a-tratar-hoy-casos-coronavirus-93441.aspx",
+    "fuente": "MINSA"
+  },
+  {
+    "codigo": "12",
+    "promesa": "Se está dando un subsidio de S/.760, hasta en 3 meses, para las empresas que tienen menos de 100 trabajadores y cuyos trabajadores tienen una remuneración menor a S/. 2 mil 400.",
+    "eje": "1",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "Los decretos 038-2020 y 072-2020 establecen la transferencia por S/. 652 millones 510 mil 920 para la “Prestación Económica de Protección Social de Emergencia ante la Pandemia del Coronavirus COVID-19”. El 9 de julio, el Ministerio de Economía y Finanzas autorizó la transferencia por dicho monto al Ministerio de Trabajo y Promoción de Empleo, mientras que al día siguiente, el 10 julio, esta entidad transfirió el monto total a EsSalud. Sin embargo, EsSalud no ha hecho efectiva la entrega de los bonos a la fecha.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/decreto-de-urgencia-que-establece-medidas-complementarias-pa-decreto-de-urgencia-n-038-2020-1865516-3/\n https://busquedas.elperuano.pe/normaslegales/decreto-de-urgencia-que-establece-medidas-complementarias-pa-decreto-de-urgencia-n-038-2020-1865516-3/",
+    "fuente": "Decretos de Urgencia 038-2020 y 072-202."
+  },
+  {
+    "codigo": "13",
+    "promesa": "Estamos, a través de este decreto legislativo, quitando el requisito de capacidad de ahorro (..) para poder acceder a la construcción de una vivienda de Techo Propio.",
+    "eje": "1",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El DL Nº 1464 elimina hasta el 31 de diciembre de 2020 el requisito de ahorro mínimo depositado en una institución del sistema financiero nacional.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-promueve-la-reactivacion-de-la-econo-decreto-legislativo-n-1464-1865621-1/",
+    "fuente": "Decreto Legislativo Nº 1464"
+  },
+  {
+    "codigo": "14",
+    "promesa": "Hemos aprobado el bono electricidad de S/.160 para más de 5 millones de hogares.",
+    "eje": "1",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El decreto 074-2020, publicado el 22 de junio de 2020, aprobó el financiamiento del subsidio “Bono Electricidad” hasta por S/. 827 millones 796 mil 496.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/decreto-de-urgencia-que-crea-el-bono-electricidad-en-favor-d-decreto-de-urgencia-n-074-2020-1869131-1/",
+    "fuente": "Decreto de Urgencia Nº 074-2020"
+  },
+  {
+    "codigo": "15",
+    "promesa": "Vamos a hacer un esfuerzo muy grande para comenzar, este lunes 6 de abril, las clases tanto en las instituciones publicas como privadas, pero de manera remota, de manera virtual.",
+    "eje": "4",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El presidente Martin Vizcarra anunció que el inicio de clases virtuales comenzaba el lunes 6 de abril de 2020. Desde entonces, los escolares estudian a través de la plataforma “Aprendo en casa”, programación que se emite a través de Internet, radio y televisión.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/574684/disponen-el-inicio-del-ano-escolar-a-traves-de-la-implementa-resolucion-ministerial-n-160-2020-minedu-1865282-1.pdf",
+    "fuente": "MINEDU"
+  },
+  {
+    "codigo": "16",
+    "promesa": "Son más de 840 mil tablets, que estamos adquiriendo con Internet incluido, para que en el sitio más alejado del ámbito rural puedan tener acceso los alumnos a los mismos contenidos que acceden los alumnos de las ciudades.",
+    "eje": "4",
+    "categoria": "6",
+    "nomcatego": "Promesa parcialmente cumplida",
+    "textoestado": "El requerimiento para la compra de tablets se realizó el 7 de junio de 2020 y se estableció como plazo de entrega el 11 de ese mes. Los días 12 y 13 se llevó a cabo el acto de revisión de las cotizaciones, mediante la metodología “urna de cristal”. Sin embargo, el monto de la propuesta económica era muy elevado, por lo que se convocó a un segundo proceso. El Ministerio de Educación seleccionó a la empresa TopSale SAC para la compra de tablets pero no se ha concretado el proceso porque el ministerio espera una garantía del 10%.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/1018767/Comunicado_18_julio.pdf",
+    "fuente": "MINEDU"
+  },
+  {
+    "codigo": "17",
+    "promesa": "El Ministerio de Educación realizará una transferencia de S/.165 millones para la adquisición de kits de higiene, para los diferentes centros educativos del país, a fin de mantener condiciones adecuadas de salubridad y proteger la salud de nuestros niños.",
+    "eje": "4",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "Según información proporcionada a Convoca.pe por la Dirección de Gestión de Recursos Educativos del Ministerio de Educación, entre marzo y julio se han transferido S/163 millones 612 mil 561 para la compra de kits de higiene. La transferencia se realizó a 53 mil 628 locales escolares a nivel nacional, en beneficio de 6 millones 172 mil 518 estudiantes.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/566375/RM_N__149-2020-MINEDU.pdf",
+    "fuente": "MINEDU"
+  },
+  {
+    "codigo": "18",
+    "promesa": "Vamos a llevarles (a los colegios) junto con su alimentación, sus útiles, sus cuadernos de trabajo, sus libros, para que comiencen a trabajar. Es un esfuerzo gigantesco, pero vale la pena hacerlo y pedimos la colaboración de todos.",
+    "eje": "4",
+    "categoria": "6",
+    "nomcatego": "Promesa parcialmente cumplida",
+    "textoestado": "El avance de entrega de cuadernos de trabajo por regiones, a nivel nacional, es del 89.7% (66,952) de escuelas en el ámbito urbano y rural. según el Ministerio de Educación.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/509709/RM_N__053-2020-MINEDU.pdf",
+    "fuente": "MINEDU"
+  },
+  {
+    "codigo": "19",
+    "promesa": "Se le ha asignado los primeros 150 millones de soles al Ministerio de Agricultura para que, a través de núcleos ejecutores, comience a hacer un trabajo intenso de limpieza de canales, bocatomas, para estar listos para la próxima campaña. Con esto se calcula que se puede generar 2 millones de jornales (...). Estos 150 millones pueden ser incrementados de manera significativa. ",
+    "eje": "0",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "A través del Decreto de Urgencia 041-2020, el presidente Martin Vizcarra ha destinado S/150 millones para promover la reactivación de la economía en el sector agricultura y riego, mediante la intervención de núcleos ejecutores. La aplicación del financiamiento estará vigente hasta el 31 de diciembre del 2020.",
+    "link": "https://www.gob.pe/institucion/minagri/noticias/206507-entregan-primeros-desembolsos-de-agroperu-y-se-ponen-en-marcha-nucleos-ejecutores-en-tacna",
+    "fuente": "MINAGRI"
+  },
+  {
+    "codigo": "20",
+    "promesa": "Hemos llegado a una cifra de más de un millón de hogares rurales, para el día de mañana aprobar un bono. No de dos partes sino, en este caso, será solamente una armada de 760 soles de bono para más de un millón de hogares rurales.",
+    "eje": "1",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "El Ejecutivo decidió crear un subsidio de S/.760 soles para las familias ubicadas en las zonas rurales. Según el Ministerio de Inclusión Social, este bono, que pretendía llegar a un millón de peruanos, tiene un avance del 77% en su proceso de pago y podría cobrarse hasta 30 días después de finalizada la cuarentena obligatoria.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/669679/RM_079_2020MIDIS.pdf",
+    "fuente": "MIDIS"
+  },
+  {
+    "codigo": "21",
+    "promesa": "Estamos aprobando el FAE (Fondo de Apoyo Empresarial) agrícola, es decir, en el mes de agosto, empieza la campaña agrícola que va hasta el próximo año. Las empresas necesitan una inyección económica que la han perdido por la situación de la cuarentena.\n",
+    "eje": "0",
+    "categoria": "5",
+    "nomcatego": "Promesa incumplida",
+    "textoestado": "El Ministerio de Agricultura y Riego y el Ministerio de Economía y Finanzas trabajan el reglamento del Decreto de Urgencia N° 082-2020, publicado el 9 de julio. El reglamento que establece la modalidad de préstamo, aún no se publica. Como parte del proceso, se debe llevar a cabo una operación de endeudamiento, la cual requiere la aprobación de la Contraloría General de la República, procedimiento que toma un par de semanas.",
+    "link": "",
+    "fuente": "MEF"
+  },
+  {
+    "codigo": "22",
+    "promesa": "A través de un decreto legislativo, dar a los policías y miembros de las Fuerzas Armadas, que trabajan, que ponen en riesgo su vida, que están en la primera línea (...), que llegan a ser infectados y como consecuencia de ese contagio perdiesen la vida, (...) un ascenso póstumo a la Policía y a las Fuerzas Armadas.",
+    "eje": "3",
+    "categoria": "0",
+    "nomcatego": "Promesa cumplida",
+    "textoestado": "El ascenso póstumo se ortorga al personal policial y militar que fallece por hechos que estén relacionados de manera directa con las acciones dispuestas en el marco de la emergencia sanitaria a nivel nacional.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-otorga-ascenso-postumo-excepcional-a-decreto-legislativo-n-1461-1865589-1/",
+    "fuente": "MININTER"
+  },
+  {
+    "codigo": "23",
+    "promesa": "Lo más importante es garantizar la alimentación de las personas. A través de los comedores populares, se atiende más o menos  a 700 mil personas a nivel nacional. Entonces, tenemos que reactivar. De los 13 mil hay más o menos 3 mil (comedores) que están funcionado a partir del mes de junio. A fin de mes vamos a superar los 6 mil, la mitad. En julio, debemos operar todos.",
+    "eje": "1",
+    "categoria": "2",
+    "nomcatego": "Promesa cumplida parcialmente",
+    "textoestado": "El 13 de junio el Ministerio de Desarrollo e Inclusión Social informó que ya se había autorizado que más de 5 mil comedores populares retomaran actividades. Sin embargo, aún no se ha logrado que atiendan los 13 mil 664 comedores populares que prometió el presidente Vizcarra.",
+    "link": "https://www.gob.pe/institucion/midis/noticias/208238-medidas-del-gobierno-han-permitido-que-mas-de-5-000-comedores-retomen-la-atencion-a-personas-en-situacion-de-vulnerabilidad",
+    "fuente": "MIDIS"
+  },
+  {
+    "codigo": "24",
+    "promesa": "En el mes de mayo vamos a incrementar en 5 mil las camas de hospitalización.",
+    "eje": "3",
+    "categoria": "3",
+    "nomcatego": "Promesa cumplida fuera de plazo",
+    "textoestado": "La meta era de 13 mil 274 camas a fin de mayo. En junio, el presidente Vizcarra declaró que el número de camas bordeaba las 12 mil, con lo cual no se llegó a cumplir lo prometido. En julio, el Ministerio de Salud informó a Convoca.pe que hay 20 mil camas para hospitalización de pacientes COVID-19 a nivel nacional.",
+    "link": "",
+    "fuente": "MINSA"
+  },
+  {
+    "codigo": "25",
+    "promesa": "En este mes de mayo, nuestro compromiso es hacer el pago de los 760 soles, por los menos, a 5 millones de hogares en el ámbito urbano y en el ámbito rural.",
+    "eje": "1",
+    "categoria": "3",
+    "nomcatego": "Promesa cumplida fuera de plazo",
+    "textoestado": "Según el Ministerio de Desarrollo e Inclusión Social, recién el 14 junio 5.1 millones de hogares cobraron el bono de S/ 760. Es decir, la promesa se cumplió dos semanas después del plazo prometido.",
+    "link": "https://www.gob.pe/institucion/midis/noticias/186819-mas-de-5-1-millones-de-hogares-ya-cobraron-el-bono-de-s-760",
+    "fuente": "MIDIS"
+  },
+  {
+    "codigo": "26",
+    "promesa": "Hemos dispuesto que el Ministerio de Economía y Finanzas asigne el bono de 760 soles. En algunos casos, ya hemos comenzado, pero todavía de manera parcial. A través del Midis (Ministerio de Desarrollo e Inclusión Social), hemos dado solo S/. 380 a S/.2 millones 200 mil. Tenemos que completarlo, pero debemos hacerlo ya.",
+    "eje": "1",
+    "categoria": "2",
+    "nomcatego": "Promesa cumplida parcialmente",
+    "textoestado": "Hasta el 24 de junio, se entregó el Bono Universal Familiar a 1.4 millones de hogares. Sin embargo, se anunció la ampliación de este beneficio para aquellos que no habían sido considerados en el primer padrón. El 3 de junio venció el plazo para que estas personas ingresaran sus datos en un aplicativo implementado por RENIEC.  Sin embargo recién la noche del 26 de julio se aprobó el padrón y hasta el cierre de esta edición aún no se publicaba a pesar que la exministra de Desarrollo e Inclusión Social, Ariela Luna, aseguró que se conocería la lista en junio.",
+    "link": "",
+    "fuente": "MIDIS"
+  },
+  {
+    "codigo": "27",
+    "promesa": "Son 84 millones de soles los que se están asignando al Ministerio de salud, para que pueda hacer la compra del suministro de oxígeno medicinal, a nivel nacional.",
+    "eje": "3",
+    "categoria": "2",
+    "nomcatego": "Promesa cumplida parcialmente",
+    "textoestado": "El 4 de junio se emitió el decreto de urgencia 066-2020, que transfiere S/. 84 millones 714 mil para la compra de oxígeno medicinal. Sin embargo, al 25 de julio, el portal de Transparencia Económica muestra que solo se devengó S/877 mil 476.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/decreto-de-urgencia-que-dicta-medidas-extraordinarias-para-i-decreto-de-urgencia-no-066-2020-1867300-1/",
+    "fuente": "MEF"
+  },
+  {
+    "codigo": "28",
+    "promesa": "Se han hecho los movimientos financieros para disponer de 265 millones de soles, para afrontar la emergencia:100 que están en el sector salud, para la adquisición de equipamiento y contratación de personal.",
+    "eje": "3",
+    "categoria": "2",
+    "nomcatego": "Promesa cumplida parcialmente",
+    "textoestado": "De los S/100 millones destinados a contratación de personal para atender COVID-19, ya se realizaron contratos por S/ 66.4 millones.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/dictan-medidas-urgentes-y-excepcionales-destinadas-a-reforza-decreto-de-urgencia-n-025-2020-1863981-1/",
+    "fuente": "MINSA"
+  },
+  {
+    "codigo": "29",
+    "promesa": "Estamos autorizando, de manera excepcional, el otorgamiento de una bonificación extraordinaria para el personal de salud y personal contratado, que brinde servicios de alerta y respuesta en las unidades de cuidados intensivos, hospitalización y aquellos que realicen vigilancia epidemiológica y las visitas domiciliarias a los pacientes que reciban atención ambulatoria.",
+    "eje": "3",
+    "categoria": "2",
+    "nomcatego": "Promesa cumplida parcialmente",
+    "textoestado": "El 4 de abril se publicó el DS 068-2020-EF, que aprueba una bonificación extraordinaria a favor del personal de salud. Solo en mayo, la Defensoría del Pueblo registró 30 protestas médicas que daban cuenta de reclamos por el pago del bono.",
+    "link": "https://busquedas.elperuano.pe/normaslegales/aprueban-monto-oportunidad-de-la-entrega-procedimientos-pa-decreto-supremo-n-068-2020-ef-1865374-2/",
+    "fuente": "Normas legales"
+  },
+  {
+    "codigo": "30",
+    "promesa": "Esta norma es sumamente importante porque significa la garantía del Ministerio de Economía y Finanzas de 30 mil millones de soles para que el sistema pueda seguir funcionando (...), van a posibilitar dar créditos a más de 350 mil empresas, de las cuales 314 mil son empresas pequeñas de menos de 10 trabajadores.",
+    "eje": "0",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "Si bien para la segunda fase de Reactiva Perú, el Banco Central de Reserva ha colocado alrededor de S/.20 millones 616 mil y precisó que, de ese monto, más del 56% será destinado a los préstamos para micro y pequeñas empresas, esta información aún no puede ser verificada pues la lista de las empresas beneficiadas por los créditos en la segunda etapa del programa no es pública.",
+    "link": "",
+    "fuente": "MEF"
+  },
+  {
+    "codigo": "31",
+    "promesa": "El Ministerio de Desarrollo e Inclusión Social, desde hoy, inicia la distribución de 17 mil toneladas de alimentos envasados para Qali Warma.",
+    "eje": "1",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "Según el Programa Qali Warma, hasta el 24 de julio, se han entregado 4 mil 850 toneladas de alimentos correspondientes al DL 1472 y 55 mil 482 toneladas del servicio alimentario escolar. Qali Warma indicó que no había una meta de entrega de 17 mil toneladas, por lo que a la fecha se entregaron 60 mil 332 toneladas. Este proceso de entrega, que empezó el 6 de abril, continuará hasta que los escolares retornen a los centros educativos.",
+    "link": "Cuadro entregado por Qali Warma.",
+    "fuente": "MIDIS - Qali Warma"
+  },
+  {
+    "codigo": "32",
+    "promesa": "Hemos planteado una serie de inversiones importantes (...) lo hemos llamado 'Arranca Perú' (...) queremos generar adicionalmente al esfuerzo y a la meta inicial, un millón de puestos de trabajo para el segundo semestre de este año 2020 (...). No solamente hay que pensar en lo útil que va a ser esta inversión de 6 mil 436 millones de soles para generar un millón de puestos de trabajo, sino en la mejora del nivel de vida.",
+    "eje": "0",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "El Decreto de Urgencia 070-2020 aprobó transferencias a los Ministerios de Vivienda, Agricultura, Transporte y Trabajo y a los gobiernos locales. La suma total de estas transferencias, sin embargo, no llega a los S/. 6 mil 436 millones prometidos. Además, aún no se puede comprobar que el programa 'Arranca Perú' generará el número de puestos de trabajo anunciado.",
+    "link": "https://cdn.www.gob.pe/uploads/document/file/863907/DU070_2020.pdf",
+    "fuente": "Transparencia Económica / Decreto de Urgencia"
+  },
+  {
+    "codigo": "33",
+    "promesa": "Tenemos 12 regiones que tienen el laboratorio operativo, validado por el Instituto Nacional de Salud. La idea es que van a incorporarse otras regiones, dentro de dos semanas, y dentro de dos meses vamos a tratar de llegar al 90% de las regiones del Perú. Van a quedar dos o tres regiones que van a requerir un trabajo adicional.",
+    "eje": "3",
+    "categoria": "5",
+    "nomcatego": "Promesa incumplida",
+    "textoestado": "El Ministerio de Salud indicó a Convoca.pe que hay 14 laboratorios a nivel nacional que realizan pruebas moleculares. Cuando el presidente Vizcarra realizó el anuncio había 12 laboratorios. No se ha llegado al 90% de las regiones como se había prometido.",
+    "link": "",
+    "fuente": "MINSA"
+  },
+  {
+    "codigo": "34",
+    "promesa": "Hemos tenido que atender la necesidad y la demanda de los peruanos que (...) se quedaron fuera del país, que se quedaron varados en distintos continentes y que, a la fecha, en un número superior a los 40 mil peruanos ya han retornado a su patria, al Perú.",
+    "eje": "2",
+    "categoria": "1",
+    "nomcatego": "Promesa en proceso",
+    "textoestado": "Hasta fines de junio, 24 mil peruanos fueron repatriados, según información de la Cancillería. Hasta el 13 de julio retornaron 2 mil 700 peruanos de los 6 mil que se proyectó que volverían para este mes. Según fuentes de Cancillería, al 28 de julio se proyecta repatriar a más de 30 mil peruanos pero aún así no se llegará a la cifra prometida.",
+    "link": "",
+    "fuente": "Ministerio de Relaciones Exteriores"
+  }
+]
